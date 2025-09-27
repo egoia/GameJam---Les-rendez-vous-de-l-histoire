@@ -1,41 +1,38 @@
-[gd_scene load_steps=6 format=3 uid="uid://cfq3xe8g3yvtl"]
+[gd_scene load_steps=8 format=3 uid="uid://cfq3xe8g3yvtl"]
 
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
-[ext_resource type="Texture2D" uid="uid://j6hwanlyehj5" path="res://Art/Decor_rue.png" id="2_8gbba"]
+[ext_resource type="Texture2D" uid="uid://byiopb8s2sc06" path="res://Art/Décor rue3.png" id="2_6bp64"]
 [ext_resource type="Texture2D" uid="uid://rq53vi4716a1" path="res://icon.svg" id="3_jjvhh"]
-[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="3_kry3j"]
-[ext_resource type="Texture2D" uid="uid://cag8w1krgthq1" path="res://Exemple.png" id="4_21xkr"]
+[ext_resource type="Script" uid="uid://ca2atj8wqc163" path="res://Scenes/choix_temp_script.gd" id="3_kry3j"]
+[ext_resource type="Resource" uid="uid://c37aquthcxjyv" path="res://Resources/ChoixTest.tres" id="4_6bp64"]
+[ext_resource type="Texture2D" uid="uid://bctxnlaltnemd" path="res://Art/Asset_la_liberté.png" id="5_344ge"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21xkr"]
+load_path = "res://.godot/imported/Exemple.png-8fab3ffc5f37c4775b2866146552d5aa.ctex"
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_jjgbg")
 
-[node name="Backgroud" type="Sprite2D" parent="."]
+[node name="Decors" type="Sprite2D" parent="."]
 position = Vector2(961.37494, 540.5)
-scale = Vector2(0.44978905, 0.378692)
-texture = ExtResource("2_8gbba")
+scale = Vector2(1, 0.842)
+texture = ExtResource("2_6bp64")
 
 [node name="Canvas" type="CanvasLayer" parent="."]
 
 [node name="Choix" type="Node" parent="Canvas"]
 script = ExtResource("3_kry3j")
-enonce = "Je  teste  le texte danas l'evenemet"
-decors = ExtResource("4_21xkr")
+exemple = ExtResource("4_6bp64")
 
-[node name="TextureRect" type="TextureRect" parent="Canvas/Choix"]
-offset_left = 409.0
-offset_top = 20.0
-offset_right = 1546.0
-offset_bottom = 852.0
-texture = ExtResource("3_jjvhh")
+[node name="Ilustration" type="TextureRect" parent="Canvas/Choix"]
+offset_left = 753.0
+offset_top = 332.0
+offset_right = 1174.0
+offset_bottom = 603.0
+texture = ExtResource("5_344ge")
+stretch_mode = 4
 
-[node name="Choice" type="Button" parent="Canvas/Choix"]
-offset_left = 490.0
-offset_top = 731.0
-offset_right = 748.0
-offset_bottom = 801.0
-text = "Button"
-
-[node name="Label" type="Label" parent="Canvas/Choix"]
+[node name="Possibility" type="Label" parent="Canvas/Choix"]
 offset_left = 509.0
 offset_top = 40.0
 offset_right = 1433.0
@@ -44,7 +41,21 @@ autowrap_mode = 3
 
 [node name="Concequence" type="Node" parent="Canvas"]
 
+[node name="Ilustration" type="TextureRect" parent="Canvas/Concequence"]
+offset_left = 753.0
+offset_top = 332.0
+offset_right = 1174.0
+offset_bottom = 603.0
+stretch_mode = 4
+
 [node name="Fin" type="Node" parent="Canvas"]
+
+[node name="Ilustration" type="TextureRect" parent="Canvas/Fin"]
+offset_left = 753.0
+offset_top = 332.0
+offset_right = 1174.0
+offset_bottom = 603.0
+stretch_mode = 4
 
 [node name="Reactions" type="Node" parent="Canvas"]
 
@@ -64,7 +75,7 @@ offset_left = 442.0
 offset_top = 913.0
 offset_right = 1543.0
 offset_bottom = 1057.0
-texture = ExtResource("4_21xkr")
+texture = SubResource("CompressedTexture2D_21xkr")
 expand_mode = 1
 
 [node name="Label" type="Label" parent="Canvas/Reactions/Text"]

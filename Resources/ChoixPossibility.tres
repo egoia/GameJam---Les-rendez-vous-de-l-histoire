@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_fj1cl")
-text = "lqla"
-value = "15"
+text = "Je me tue"
+value = "2"
 jauge = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cag8w1krgthq1"
-path="res://.godot/imported/Exemple.png-8fab3ffc5f37c4775b2866146552d5aa.ctex"
+uid="uid://bctxnlaltnemd"
+path="res://.godot/imported/Asset_la_liberté.png-e6ffc2a4d13db7c74e4cff3518129b64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Exemple.png"
-dest_files=["res://.godot/imported/Exemple.png-8fab3ffc5f37c4775b2866146552d5aa.ctex"]
+source_file="res://Art/Asset_la_liberté.png"
+dest_files=["res://.godot/imported/Asset_la_liberté.png-e6ffc2a4d13db7c74e4cff3518129b64.ctex"]
 
 [params]
 
