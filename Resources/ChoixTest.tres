@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://c37aquthcxjyv"]
+
+[ext_resource type="Resource" uid="uid://brl7fosleuph5" path="res://Resources/testChoicePoss.tres" id="1_64mue"]
+[ext_resource type="Script" uid="uid://bgt3hw52sujdl" path="res://Script/StoryTree/StoryNode.gd" id="1_qyw4w"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_0qkwx"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_i28mu"]
+[ext_resource type="Resource" uid="uid://dy6y315vaulk8" path="res://Resources/new_resource.tres" id="3_fgine"]
+
+[resource]
+script = ExtResource("2_0qkwx")
+choixe = Array[ExtResource("2_i28mu")]([ExtResource("1_64mue"), ExtResource("1_64mue")])
+next = ExtResource("3_fgine")
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

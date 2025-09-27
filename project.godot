@@ -13,3 +13,13 @@ config_version=5
 config/name="Une (bonne) revolution"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Art/": "red",
+"res://Resources/": "purple",
+"res://Scenes/": "yellow",
+"res://Script/": "green",
+"res://Script/StoryTree/": "teal"
+}
