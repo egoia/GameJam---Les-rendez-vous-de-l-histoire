@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://cqxtq3sca86ho"]
+
+[ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="1_jh2rn"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_wxmtb"]
+[ext_resource type="Resource" uid="uid://b30r33hbweg4t" path="res://Resources/choix_stan/CHX_B.tres" id="2_43sjk"]
+
+[resource]
+script = ExtResource("1_wxmtb")
+enonce = "Le meilleur moyen de se faire entendre n'est-il pas de dépenser aux bons endroits?"
+decors = ExtResource("1_jh2rn")
+titre = "Financement"
+next = ExtResource("2_43sjk")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

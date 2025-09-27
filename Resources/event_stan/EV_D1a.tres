@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bv6lny31de0xf"]
+
+[ext_resource type="Resource" uid="uid://cka376in05w3l" path="res://Resources/event_stan/EV_D1b.tres" id="1_dg040"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_u1vrg"]
+
+[resource]
+script = ExtResource("1_u1vrg")
+enonce = "Le nouveau roi Philippe VII forme un nouveau gouvernement, après avoir également mis Guizot de côté."
+titre = "La Monarchie de Juillet se maintient"
+next = ExtResource("1_dg040")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

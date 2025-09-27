@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://blamrl6q8grc2"]
+
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_3jdut"]
+[ext_resource type="Resource" uid="uid://dxw4c73lsk63p" path="res://Resources/fork_stan/Fork_Répression.tres" id="1_uexfw"]
+
+[resource]
+script = ExtResource("1_3jdut")
+enonce = "Grâce à la défense de la milice, la foule semble de suite plus convaincante aux yeux du roi. L’armée est désemparée."
+titre = "La Garde Nationale renverse la situation !"
+next = ExtResource("1_uexfw")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

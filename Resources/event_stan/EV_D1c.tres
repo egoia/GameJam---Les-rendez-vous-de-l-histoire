@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bykd4b0sabisq"]
+
+[ext_resource type="Resource" uid="uid://v370s03qwg" path="res://Resources/choix_stan/CHX_F.tres" id="1_fiptt"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_j1dib"]
+
+[resource]
+script = ExtResource("1_j1dib")
+enonce = "(résumer choix joueurs)"
+titre = "Propositions faites au roi"
+next = ExtResource("1_fiptt")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

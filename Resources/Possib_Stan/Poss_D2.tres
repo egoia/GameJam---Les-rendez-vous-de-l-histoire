@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=2 format=3 uid="uid://v1t3gfyogsp0"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_lmi6j"]
+
+[resource]
+script = ExtResource("1_lmi6j")
+text = "Et puis quoi encore? L’heure est à la République !"
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

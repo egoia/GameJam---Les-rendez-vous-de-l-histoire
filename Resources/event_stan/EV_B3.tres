@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cff5ii0ofl7xe"]
+
+[ext_resource type="Resource" uid="uid://cysg1u1milefi" path="res://Resources/choix_stan/CHX_C.tres" id="1_t5sem"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_x1f0g"]
+
+[resource]
+script = ExtResource("1_x1f0g")
+enonce = "Vous essayez de calmer le jeu. Vos amis suivent votre mouvement, mais le peuple s’insurge de votre passivité!"
+titre = "La déception est grande et le peuple gronde"
+next = ExtResource("1_t5sem")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://utxybipjyl67"]
+
+[ext_resource type="Resource" uid="uid://dgkkpd7g1ek0p" path="res://Resources/end_stan/End_Déçu_par_la_couronne.tres" id="1_bgmh3"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_qn4go"]
+
+[resource]
+script = ExtResource("1_qn4go")
+enonce = "Il semblerait que le Roi n’avait jamais prévu de vous écouter en premier lieu. Ainsi, il adopte la Charte en dépit des avis de son peuple."
+titre = "Le Roi adopte la Charte sans écouter l’avis du peuple"
+next = ExtResource("1_bgmh3")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

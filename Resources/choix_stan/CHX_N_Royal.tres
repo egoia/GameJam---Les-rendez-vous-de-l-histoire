@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://gyd45fathjtw"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_qwut2"]
+[ext_resource type="Resource" uid="uid://crad06u2vxj4g" path="res://Resources/Possib_Stan/Poss_N1_Royal.tres" id="2_l5pyi"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_op310"]
+[ext_resource type="Resource" uid="uid://l03dgir7gxtf" path="res://Resources/Possib_Stan/Poss_N2_Royal.tres" id="3_tcsgp"]
+[ext_resource type="Texture2D" uid="uid://ciebjynil542p" path="res://Art/Asset_esclavagisme.png" id="4_r5jva"]
+
+[resource]
+script = ExtResource("2_op310")
+choix = Array[ExtResource("1_qwut2")]([ExtResource("2_l5pyi"), ExtResource("3_tcsgp")])
+illustration = ExtResource("4_r5jva")
+enonce = "Que faire des 250 000 esclaves de nos colonies ?"
+titre = "Esclavage"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://badwctthx0rdj"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_buukp"]
+[ext_resource type="Resource" uid="uid://cqxtq3sca86ho" path="res://Resources/event_stan/EV_A1.tres" id="1_mo2nb"]
+
+[resource]
+script = ExtResource("1_buukp")
+next = ExtResource("1_mo2nb")
+text = "Finançons des banquets !"
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"
