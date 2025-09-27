@@ -1,7 +1,10 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=2 format=3 uid="uid://c0vk4nf32q1du"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://c0vk4nf32q1du"]
 
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_4mdim"]
+[ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="1_pnhai"]
 
 [resource]
 script = ExtResource("1_4mdim")
+enonce = "AAAAAAAAAAAAAA"
+decors = ExtResource("1_pnhai")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

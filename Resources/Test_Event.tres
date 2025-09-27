@@ -1,7 +1,12 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=2 format=3 uid="uid://buf5sr7srmlis"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://buf5sr7srmlis"]
 
+[ext_resource type="Texture2D" uid="uid://byiopb8s2sc06" path="res://Art/Décor rue3.png" id="1_8mjry"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_nqq0a"]
+[ext_resource type="Resource" uid="uid://c0vk4nf32q1du" path="res://Resources/Test_Event2.tres" id="2_odmyv"]
 
 [resource]
 script = ExtResource("1_nqq0a")
+enonce = "C'est la Fiiin"
+decors = ExtResource("1_8mjry")
+next = ExtResource("2_odmyv")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
