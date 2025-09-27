@@ -3,11 +3,11 @@
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
 [ext_resource type="Resource" uid="uid://cug1uqvog2wda" path="res://Resources/Test_Story.tres" id="2_344ge"]
 [ext_resource type="Texture2D" uid="uid://rq53vi4716a1" path="res://icon.svg" id="3_jjvhh"]
-[ext_resource type="Script" uid="uid://cid27pdm4ftu2" path="res://Scenes/ChoixNode.gd" id="4_kry3j"]
-[ext_resource type="Script" uid="uid://c0tsnwvmibpvm" path="res://Scenes/2_buttons.gd" id="5_21xkr"]
+[ext_resource type="Script" uid="uid://cid27pdm4ftu2" path="res://Script/ChoixNode.gd" id="4_344ge"]
+[ext_resource type="Script" uid="uid://c0tsnwvmibpvm" path="res://Script/2_buttons.gd" id="5_ynf5e"]
 [ext_resource type="PackedScene" uid="uid://dfcnh23j61y6d" path="res://Scenes/button.tscn" id="6_6bp64"]
-[ext_resource type="Script" uid="uid://tgocb5ted41d" path="res://Scenes/3_buttons.gd" id="7_6bp64"]
-[ext_resource type="Script" uid="uid://ql46mfkuuu7u" path="res://Scenes/concequence.gd" id="8_344ge"]
+[ext_resource type="Script" uid="uid://tgocb5ted41d" path="res://Script/3_buttons.gd" id="7_hptm8"]
+[ext_resource type="Script" uid="uid://ql46mfkuuu7u" path="res://Script/concequence.gd" id="8_d1ilt"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21xkr"]
 
@@ -23,7 +23,7 @@ texture = ExtResource("3_jjvhh")
 [node name="Canvas" type="CanvasLayer" parent="."]
 
 [node name="Choix" type="Node" parent="Canvas"]
-script = ExtResource("4_kry3j")
+script = ExtResource("4_344ge")
 
 [node name="Ilustration" type="TextureRect" parent="Canvas/Choix"]
 offset_left = 753.0
@@ -44,7 +44,7 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="2Buttons" type="Node" parent="Canvas/Choix"]
-script = ExtResource("5_21xkr")
+script = ExtResource("5_ynf5e")
 
 [node name="CustomButton" parent="Canvas/Choix/2Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
 offset_left = 703.0
@@ -63,7 +63,7 @@ text = "Sample Text"
 game_manager = NodePath("../../../..")
 
 [node name="3Buttons" type="Node" parent="Canvas/Choix"]
-script = ExtResource("7_6bp64")
+script = ExtResource("7_hptm8")
 
 [node name="CustomButton3" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
 offset_left = 880.0
@@ -90,16 +90,7 @@ text = "Sample Text"
 game_manager = NodePath("../../../..")
 
 [node name="Concequence" type="Node" parent="Canvas"]
-script = ExtResource("8_344ge")
-
-[node name="Ilustration" type="TextureRect" parent="Canvas/Concequence"]
-visible = false
-offset_left = 753.0
-offset_top = 332.0
-offset_right = 1174.0
-offset_bottom = 603.0
-texture = ExtResource("3_jjvhh")
-stretch_mode = 4
+script = ExtResource("8_d1ilt")
 
 [node name="Enonce" type="Label" parent="Canvas/Concequence"]
 visible = false
@@ -112,14 +103,12 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
 
-[node name="CustomButton" parent="Canvas/Concequence" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
-visible = false
-offset_left = 1043.0
-offset_top = 637.0
-offset_right = 1192.0
-offset_bottom = 687.0
-text = "Sample Text"
-game_manager = NodePath("../../..")
+[node name="Button" type="Button" parent="Canvas/Concequence"]
+offset_left = 832.0
+offset_top = 635.0
+offset_right = 970.0
+offset_bottom = 692.0
+text = "Suivant"
 
 [node name="Fin" type="Node" parent="Canvas"]
 
@@ -160,3 +149,5 @@ offset_right = 1496.0
 offset_bottom = 1022.0
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
 autowrap_mode = 3
+
+[connection signal="button_up" from="Canvas/Concequence/Button" to="." method="select_evenement"]

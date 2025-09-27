@@ -34,6 +34,7 @@ func select_choice(choicePossibility : ChoicePossibility):
 	
 func select_evenement():
 	current_node = current_node.next
+	consequenceNode.hide()
 	manage()
 	
 func manage() : 
