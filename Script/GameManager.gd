@@ -8,14 +8,26 @@ var repression_value : int = 0
 var conservative_value : int = 0
 var revolutionnary_value : int = 0
 const BUTTON = preload("uid://dfcnh23j61y6d")
+@onready var Fade: ColorRect = $"Canvas/BlackScreen"
+@export var duration : float = 1
 
 @onready var choixNode: Node = $Canvas/Choix
 @onready var consequenceNode: Node = $Canvas/Concequence
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	select_evenement()
+	await fadeIn()
+	Fade.visible = false
 
+func fadeIn():
+	var tween = create_tween()
+	tween.tween_property(Fade,"modulate",Color(0, 0, 0, 0), duration)
+	await tween.finished
+	
+
+	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
