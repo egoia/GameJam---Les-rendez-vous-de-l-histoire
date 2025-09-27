@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Une (bonne) revolution"
-run/main_scene="uid://cfq3xe8g3yvtl"
+run/main_scene="uid://cs2sol80mp67a"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

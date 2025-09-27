@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="Choix" load_steps=2 format=3 uid="uid://c2nykb88bsf1m"]
+[gd_resource type="Resource" script_class="Choix" load_steps=3 format=3 uid="uid://c2nykb88bsf1m"]
 
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_3cld6"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="1_rtcvn"]
 
 [resource]
 script = ExtResource("1_rtcvn")
+choix = Array[ExtResource("1_3cld6")]([null, null])
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

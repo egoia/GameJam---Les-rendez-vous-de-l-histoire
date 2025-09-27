@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://cs2sol80mp67a"]
+
+[ext_resource type="Texture2D" uid="uid://co7r8sfhcg17c" path="res://Art/Menu principal2.png" id="1_juhg0"]
+[ext_resource type="Script" uid="uid://bu67teobt8rfg" path="res://Scenes/button_jouer.gd" id="2_jgtwh"]
+
+[node name="Start_Menu" type="Node"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(954, 586)
+texture = ExtResource("1_juhg0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button_Jouer" type="Button" parent="CanvasLayer"]
+offset_left = 603.0
+offset_top = 288.0
+offset_right = 1303.0
+offset_bottom = 516.0
+text = "JOUER"
+script = ExtResource("2_jgtwh")
+
+[node name="Button_Credits" type="Button" parent="CanvasLayer"]
+offset_left = 610.0
+offset_top = 576.0
+offset_right = 1303.0
+offset_bottom = 790.0
+text = "CREDITS"
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 604.0
+offset_top = 827.0
+offset_right = 1304.0
+offset_bottom = 1048.0
+text = "Quitter"
+
+[connection signal="button_up" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_button_up"]
