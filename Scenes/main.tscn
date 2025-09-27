@@ -1,6 +1,77 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfq3xe8g3yvtl"]
+[gd_scene load_steps=6 format=3 uid="uid://cfq3xe8g3yvtl"]
 
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
+[ext_resource type="Texture2D" uid="uid://j6hwanlyehj5" path="res://Art/Decor_rue.png" id="2_8gbba"]
+[ext_resource type="Texture2D" uid="uid://rq53vi4716a1" path="res://icon.svg" id="3_jjvhh"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="3_kry3j"]
+[ext_resource type="Texture2D" uid="uid://cag8w1krgthq1" path="res://Exemple.png" id="4_21xkr"]
 
-[node name="GameManager" type="Node2D"]
+[node name="Main" type="Node2D"]
 script = ExtResource("1_jjgbg")
+
+[node name="Backgroud" type="Sprite2D" parent="."]
+position = Vector2(961.37494, 540.5)
+scale = Vector2(0.44978905, 0.378692)
+texture = ExtResource("2_8gbba")
+
+[node name="Canvas" type="CanvasLayer" parent="."]
+
+[node name="Choix" type="Node" parent="Canvas"]
+script = ExtResource("3_kry3j")
+enonce = "Je  teste  le texte danas l'evenemet"
+decors = ExtResource("4_21xkr")
+
+[node name="TextureRect" type="TextureRect" parent="Canvas/Choix"]
+offset_left = 409.0
+offset_top = 20.0
+offset_right = 1546.0
+offset_bottom = 852.0
+texture = ExtResource("3_jjvhh")
+
+[node name="Choice" type="Button" parent="Canvas/Choix"]
+offset_left = 490.0
+offset_top = 731.0
+offset_right = 748.0
+offset_bottom = 801.0
+text = "Button"
+
+[node name="Label" type="Label" parent="Canvas/Choix"]
+offset_left = 509.0
+offset_top = 40.0
+offset_right = 1433.0
+offset_bottom = 178.0
+autowrap_mode = 3
+
+[node name="Concequence" type="Node" parent="Canvas"]
+
+[node name="Fin" type="Node" parent="Canvas"]
+
+[node name="Reactions" type="Node" parent="Canvas"]
+
+[node name="TextureRect" type="TextureRect" parent="Canvas/Reactions"]
+visible = false
+offset_left = 302.0
+offset_top = 914.0
+offset_right = 430.0
+offset_bottom = 1042.0
+texture = ExtResource("3_jjvhh")
+
+[node name="Text" type="Node" parent="Canvas/Reactions"]
+
+[node name="TextureRect" type="TextureRect" parent="Canvas/Reactions/Text"]
+visible = false
+offset_left = 442.0
+offset_top = 913.0
+offset_right = 1543.0
+offset_bottom = 1057.0
+texture = ExtResource("4_21xkr")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="Canvas/Reactions/Text"]
+visible = false
+offset_left = 460.0
+offset_top = 947.0
+offset_right = 1496.0
+offset_bottom = 1022.0
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in."
+autowrap_mode = 3
