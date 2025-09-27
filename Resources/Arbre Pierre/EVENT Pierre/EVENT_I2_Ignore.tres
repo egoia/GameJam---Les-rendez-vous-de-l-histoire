@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://d1goo0wdudu4f"]
+
+[ext_resource type="Resource" uid="uid://st6vny4h8ffh" path="res://Resources/Arbre Pierre/FIN Pierre/END_Ignore.tres" id="1_n8ywu"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_hy8lw"]
+
+[resource]
+script = ExtResource("2_hy8lw")
+enonce = "Votre proposition de Ministère du Travail a fait rire vos amis au sein du gouvernement. Votre moment est passé, Thiers à la main et poursuit ses réformes."
+titre = "Vu et s’en tape."
+next = ExtResource("1_n8ywu")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

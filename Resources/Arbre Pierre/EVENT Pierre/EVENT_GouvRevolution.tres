@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cff6mas3se8ls"]
+
+[ext_resource type="Resource" uid="uid://b8q2nua7qi3n4" path="res://Resources/Arbre Pierre/FORKS Pierre/FORK_Revolution.tres" id="1_dcjjh"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_y1pkd"]
+
+[resource]
+script = ExtResource("2_y1pkd")
+enonce = "Fort de votre succès électoral, vous êtes parvenu à regrouper assez de députés pour passer vos propositions de réformes. La révolution socialiste est en marche !"
+titre = "Vos réformes passent à l'Assemblée !"
+next = ExtResource("1_dcjjh")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

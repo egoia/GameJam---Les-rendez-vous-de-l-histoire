@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://b1ur74ssxvso7"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_0weem"]
+[ext_resource type="Resource" uid="uid://bmydrmv3psgnd" path="res://Resources/Arbre Pierre/Charte Gouv/CHX_Suffrage1.tres" id="1_hkgam"]
+
+[resource]
+script = ExtResource("1_0weem")
+next = ExtResource("1_hkgam")
+text = "Libérons-les tous sans condition, sans compensation !"
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

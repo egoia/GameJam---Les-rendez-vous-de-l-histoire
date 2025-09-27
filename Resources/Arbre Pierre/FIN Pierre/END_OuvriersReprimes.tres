@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://d2mihu4necjf2"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_0j16v"]
+
+[resource]
+script = ExtResource("1_0j16v")
+enonce = "Vous avez aidé ce gouvernement à prendre forme, tout en prenant bien soin de garder les choses en main. Le changement c’est bien, mais pas trop vite! Aux côtés de Thiers, vous réprimez les ouvriers dans un bain de sang, marquant les traces de votre gouvernement axé sur le développement économique."
+titre = "Le briseur de manifestations"
+metadata/_custom_type_script = "uid://de6aut023am28"

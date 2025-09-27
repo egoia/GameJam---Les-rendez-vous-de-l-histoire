@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cqhm57dq4tox3"]
+
+[ext_resource type="Resource" uid="uid://b4qevujw58jaf" path="res://Resources/Arbre Pierre/Charte Revolut/CHX_Suffrage2.tres" id="1_bej4l"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_51bw0"]
+
+[resource]
+script = ExtResource("2_51bw0")
+next = ExtResource("1_bej4l")
+text = "Ne rien faire, notre économie ne supporterait pas le choc."
+value = 2
+jauge = 1
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

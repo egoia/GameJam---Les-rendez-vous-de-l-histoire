@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://y4xe516rjwc1"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_cimih"]
+
+[resource]
+script = ExtResource("1_cimih")
+enonce = "Si ce gouvernement existe, c’est en grande partie grâce à vous. Tout cela pour au final perdre les élections, et en même temps votre importance au sein de celui-ci. Il reste principalement bourgeois, et vos idées de réformes n’ont guère plu à vos pairs …Face à la fermeture des ateliers nationaux, vous avez repris la rue. La révolte coule dans votre sang, mais ce jour-là, elle fit couler celui de vos partisans. Maintenant derrière les barreaux, il ne reste plus qu’un souvenir de votre ardeur passée."
+titre = "L'opposant déçu"
+metadata/_custom_type_script = "uid://de6aut023am28"

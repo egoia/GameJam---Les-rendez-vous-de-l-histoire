@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cw3hxdue3myou"]
+
+[ext_resource type="Resource" uid="uid://c6cd3jchbdc6o" path="res://Resources/Arbre Pierre/Charte Revolut/CHX_Esclavage2.tres" id="1_wbtjc"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_ty45l"]
+
+[resource]
+script = ExtResource("2_ty45l")
+next = ExtResource("1_wbtjc")
+text = "Totale ! On peut tout dire, tout écrire, sans être inquiété."
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

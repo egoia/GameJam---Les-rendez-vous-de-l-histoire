@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://b66342q60web0"]
+
+[ext_resource type="Resource" uid="uid://134dq346b1t2" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_Elections.tres" id="1_s4dfa"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_82s0u"]
+
+[resource]
+script = ExtResource("2_82s0u")
+next = ExtResource("1_s4dfa")
+text = "L’État a les moyens et la responsabilité d’intervenir pour aider les classes laborieuses !"
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

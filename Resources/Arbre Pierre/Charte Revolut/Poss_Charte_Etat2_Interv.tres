@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cpu3iyed44jgm"]
+
+[ext_resource type="Resource" uid="uid://cdexehfty1ip1" path="res://Resources/Arbre Pierre/Charte Revolut/CHX_Ministere.tres" id="1_phtxx"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_vsjtu"]
+
+[resource]
+script = ExtResource("2_vsjtu")
+next = ExtResource("1_phtxx")
+text = "L’État a les moyens et la responsabilité d’intervenir pour aider les classes laborieuses !"
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

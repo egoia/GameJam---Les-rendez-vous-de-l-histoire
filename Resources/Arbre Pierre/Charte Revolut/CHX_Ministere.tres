@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=5 format=3 uid="uid://cdexehfty1ip1"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_cif0h"]
+[ext_resource type="Resource" uid="uid://b2beke74qvago" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_MinistereOui.tres" id="2_jv7vl"]
+[ext_resource type="Resource" uid="uid://dos5nj1od1b78" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_MinistereNon.tres" id="3_aurob"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_rh1en"]
+
+[resource]
+script = ExtResource("4_rh1en")
+choix = Array[ExtResource("1_cif0h")]([ExtResource("2_jv7vl"), ExtResource("3_aurob")])
+enonce = "Et si nous mettions en place un Ministère du Travail ?"
+titre = "Ministère du Travail"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

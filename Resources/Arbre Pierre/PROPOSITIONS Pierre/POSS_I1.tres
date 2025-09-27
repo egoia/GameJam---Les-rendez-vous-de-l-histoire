@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://ct5fji4ce6gpu"]
+
+[ext_resource type="Resource" uid="uid://beh3uet3ewq74" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_I1_LutteVSGouv.tres" id="1_idskc"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_kqxq4"]
+
+[resource]
+script = ExtResource("2_kqxq4")
+next = ExtResource("1_idskc")
+text = "On finira comme on a commencé. Montons des manifestations !"
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

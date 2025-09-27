@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://c3qc46vrpgjn"]
+
+[ext_resource type="Resource" uid="uid://tbxil7y2vdh6" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_G2_ElectionsRev.tres" id="1_irm87"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_pw03s"]
+
+[resource]
+script = ExtResource("2_pw03s")
+next = ExtResource("1_irm87")
+text = "Les élections sont notre meilleure chance. Préparons-nous."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

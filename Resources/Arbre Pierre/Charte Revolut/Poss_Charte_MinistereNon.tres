@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://dos5nj1od1b78"]
+
+[ext_resource type="Resource" uid="uid://cff6mas3se8ls" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_GouvRevolution.tres" id="1_5jkt2"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_7gd2u"]
+
+[resource]
+script = ExtResource("2_7gd2u")
+next = ExtResource("1_5jkt2")
+text = "Non, les ateliers nationaux suffisent pour l’instant, l’Assemblée défendra les ouvriers."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

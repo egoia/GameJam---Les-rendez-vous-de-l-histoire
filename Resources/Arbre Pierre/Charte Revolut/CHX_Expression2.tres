@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=5 format=3 uid="uid://bxoblaabhbgqm"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_7bnes"]
+[ext_resource type="Resource" uid="uid://di3b0pswfyiwu" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Expression2_encadre.tres" id="2_ky5ej"]
+[ext_resource type="Resource" uid="uid://cw3hxdue3myou" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Expression2_liberte.tres" id="3_tf7o3"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_33x67"]
+
+[resource]
+script = ExtResource("4_33x67")
+choix = Array[ExtResource("1_7bnes")]([ExtResource("2_ky5ej"), ExtResource("3_tf7o3")])
+enonce = "Quelle liberté accorder à l’expression des citoyens ?"
+titre = "Liberté d’expression"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

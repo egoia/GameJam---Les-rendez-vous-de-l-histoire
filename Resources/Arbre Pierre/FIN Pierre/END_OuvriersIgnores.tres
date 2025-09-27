@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://yw26xlvgdsdj"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_4dfuj"]
+
+[resource]
+script = ExtResource("1_4dfuj")
+enonce = "Vous avez aidé ce gouvernement à prendre forme, tout en prenant bien soin de garder les choses en main. Le changement c’est bien, mais pas trop vite! Face à la révolte, vous avez juste tourné le regard. Vous préférez garder les yeux sur l’avenir économique du pays, en dépit des révoltes sociales qui vous freinent."
+titre = "L'insensible au peuple"
+metadata/_custom_type_script = "uid://de6aut023am28"

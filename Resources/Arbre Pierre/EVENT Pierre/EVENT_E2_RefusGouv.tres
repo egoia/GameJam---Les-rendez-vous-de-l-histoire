@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cdbw1mhx30y6e"]
+
+[ext_resource type="Resource" uid="uid://8peavwt1a21u" path="res://Resources/Arbre Pierre/CHOIX Pierre/CHX_G.tres" id="1_nnr32"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_xy31l"]
+
+[resource]
+script = ExtResource("2_xy31l")
+enonce = "Vous décidez avec vos camarades de ne pas vous mêler à la République bourgeoise. Seule la rue peut défendre les intérêts du peuple. Vous attendez le programme du gouvernement pour voir comment organiser la lutte."
+titre = "Le peuple n’est pas réellement représenté au gouvernement provisoire"
+next = ExtResource("1_nnr32")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

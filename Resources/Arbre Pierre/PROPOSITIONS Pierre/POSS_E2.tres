@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://coxf00fugd3rl"]
+
+[ext_resource type="Resource" uid="uid://cdbw1mhx30y6e" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_E2_RefusGouv.tres" id="1_stv1u"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_ihq1i"]
+
+[resource]
+script = ExtResource("2_ihq1i")
+next = ExtResource("1_stv1u")
+text = "Un gouvernement ? Très peu pour moi, ma place est aux côtés du peuple."
+value = 3
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

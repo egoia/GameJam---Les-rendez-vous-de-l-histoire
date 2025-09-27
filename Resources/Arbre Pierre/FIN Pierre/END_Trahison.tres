@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://bwv1hvuab3cjv"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_msdx4"]
+
+[resource]
+script = ExtResource("1_msdx4")
+enonce = "Vous avez passé votre vie dans la rue, sur les barricades, à défendre la Révolution. Mais dès votre élection, quelque chose a changé dans vos opinions. Vous avez changé de bord politique si soudainement que tous vos partisans se demandent quelle mouche vous a piqué. Le peuple gronde suite à vos trahisons! Ces mêmes barricades qui vous ont vu grandir se dressent désormais contre vous, qui les réprimez. Un an plus tard, le parti de Thiers remporte les élections grâce au chemin que vous lui avez créé."
+titre = "Le trtaître du peuple"
+metadata/_custom_type_script = "uid://de6aut023am28"

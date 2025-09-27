@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cobqxjr0e28i6"]
+
+[ext_resource type="Resource" uid="uid://c4xgro02qcy56" path="res://Resources/Arbre Pierre/Charte Gouv/CHX_InterventionEtat1.tres" id="1_3usvx"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_awihj"]
+
+[resource]
+script = ExtResource("1_awihj")
+next = ExtResource("1_3usvx")
+text = "Établir le suffrage universel masculin."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

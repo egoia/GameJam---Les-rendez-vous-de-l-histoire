@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://tbxil7y2vdh6"]
+
+[ext_resource type="Resource" uid="uid://bxoblaabhbgqm" path="res://Resources/Arbre Pierre/Charte Revolut/CHX_Expression2.tres" id="1_aycjs"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_mmavs"]
+
+[resource]
+script = ExtResource("2_mmavs")
+enonce = "Les Révolutionnaires parviennent à obtenir une part conséquente des sièges! C’est maintenant à votre tour de faire passer des réformes et de modeler ce gouvernement."
+titre = "Les révolutionnaires ont la main !"
+next = ExtResource("1_aycjs")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

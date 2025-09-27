@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://b2beke74qvago"]
+
+[ext_resource type="Resource" uid="uid://cff6mas3se8ls" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_GouvRevolution.tres" id="1_7xguq"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_cmwxf"]
+
+[resource]
+script = ExtResource("2_cmwxf")
+next = ExtResource("1_7xguq")
+text = "Oui, le droit au travail doit être pleinement défendu et soutenu par l’État !"
+value = 1
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

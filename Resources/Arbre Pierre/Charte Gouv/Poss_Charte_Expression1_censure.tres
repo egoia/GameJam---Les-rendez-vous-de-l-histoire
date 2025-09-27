@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cpfpo5kl1ldp3"]
+
+[ext_resource type="Resource" uid="uid://b5hkgtmmed0pk" path="res://Resources/Arbre Pierre/Charte Gouv/CHX_Esclavage1.tres" id="1_r8t3p"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_ymj5k"]
+
+[resource]
+script = ExtResource("2_ymj5k")
+next = ExtResource("1_r8t3p")
+text = "Maintenons la censure pour assurer l’ordre."
+value = 2
+jauge = 1
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"
