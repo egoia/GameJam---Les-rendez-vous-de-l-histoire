@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cfq3xe8g3yvtl"]
+[gd_scene load_steps=11 format=3 uid="uid://cfq3xe8g3yvtl"]
 
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
 [ext_resource type="Resource" uid="uid://cug1uqvog2wda" path="res://Resources/Test_Story.tres" id="2_344ge"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dfcnh23j61y6d" path="res://Scenes/button.tscn" id="6_6bp64"]
 [ext_resource type="Script" uid="uid://tgocb5ted41d" path="res://Script/3_buttons.gd" id="7_hptm8"]
 [ext_resource type="Script" uid="uid://ql46mfkuuu7u" path="res://Script/concequence.gd" id="8_d1ilt"]
+[ext_resource type="Script" uid="uid://bwyql3nec208p" path="res://Script/fin_node.gd" id="9_ynf5e"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21xkr"]
 
@@ -26,6 +27,7 @@ texture = ExtResource("3_jjvhh")
 script = ExtResource("4_344ge")
 
 [node name="Ilustration" type="TextureRect" parent="Canvas/Choix"]
+visible = false
 offset_left = 753.0
 offset_top = 332.0
 offset_right = 1174.0
@@ -34,6 +36,7 @@ texture = ExtResource("3_jjvhh")
 stretch_mode = 4
 
 [node name="Enonce" type="Label" parent="Canvas/Choix"]
+visible = false
 offset_left = 504.0
 offset_top = 179.0
 offset_right = 1335.0
@@ -47,6 +50,7 @@ autowrap_mode = 3
 script = ExtResource("5_ynf5e")
 
 [node name="CustomButton" parent="Canvas/Choix/2Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
+visible = false
 offset_left = 703.0
 offset_top = 636.0
 offset_right = 852.0
@@ -55,6 +59,7 @@ text = "Sample Text"
 game_manager = NodePath("../../../..")
 
 [node name="CustomButton2" parent="Canvas/Choix/2Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
+visible = false
 offset_left = 1041.0
 offset_top = 636.0
 offset_right = 1177.0
@@ -66,6 +71,7 @@ game_manager = NodePath("../../../..")
 script = ExtResource("7_hptm8")
 
 [node name="CustomButton3" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
+visible = false
 offset_left = 880.0
 offset_top = 634.0
 offset_right = 1018.0
@@ -74,6 +80,7 @@ text = "Sample Text"
 game_manager = NodePath("../../../..")
 
 [node name="Custom_button4" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
+visible = false
 offset_left = 657.0
 offset_top = 635.0
 offset_right = 805.0
@@ -82,6 +89,7 @@ text = "Sample text"
 game_manager = NodePath("../../../..")
 
 [node name="Custom_button5" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
+visible = false
 offset_left = 1083.0
 offset_top = 636.0
 offset_right = 1234.0
@@ -104,6 +112,7 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="Button" type="Button" parent="Canvas/Concequence"]
+visible = false
 offset_left = 832.0
 offset_top = 635.0
 offset_right = 970.0
@@ -111,14 +120,40 @@ offset_bottom = 692.0
 text = "Suivant"
 
 [node name="Fin" type="Node" parent="Canvas"]
+script = ExtResource("9_ynf5e")
 
-[node name="Ilustration" type="TextureRect" parent="Canvas/Fin"]
+[node name="ResumePartie" type="Label" parent="Canvas/Fin"]
+offset_left = 1083.0
+offset_top = 248.0
+offset_right = 1453.0
+offset_bottom = 388.0
+text = "LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG "
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="LivreHistoire" type="Label" parent="Canvas/Fin"]
+offset_left = 504.0
+offset_top = 248.0
+offset_right = 874.0
+offset_bottom = 388.0
+text = "LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG "
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Button" type="Button" parent="Canvas/Fin"]
 visible = false
-offset_left = 753.0
-offset_top = 332.0
-offset_right = 1174.0
-offset_bottom = 603.0
-stretch_mode = 4
+offset_left = 897.0
+offset_top = 487.0
+offset_right = 1045.0
+offset_bottom = 539.0
+text = "Sample text"
+
+[node name="ZoomLivre" type="Button" parent="Canvas/Fin"]
+visible = false
+offset_right = 1920.0
+offset_bottom = 1080.0
 
 [node name="Reactions" type="Node" parent="Canvas"]
 
@@ -151,3 +186,4 @@ text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 autowrap_mode = 3
 
 [connection signal="button_up" from="Canvas/Concequence/Button" to="." method="select_evenement"]
+[connection signal="button_up" from="Canvas/Fin/Button" to="Canvas/Fin" method="go_to_menu"]

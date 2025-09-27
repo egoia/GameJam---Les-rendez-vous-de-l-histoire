@@ -1,10 +1,12 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://c0vk4nf32q1du"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://c0vk4nf32q1du"]
 
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_4mdim"]
 [ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="1_pnhai"]
+[ext_resource type="Resource" uid="uid://dbp5p3ycnpbwi" path="res://Resources/test_fin.tres" id="2_am1cs"]
 
 [resource]
 script = ExtResource("1_4mdim")
 enonce = "AAAAAAAAAAAAAA"
 decors = ExtResource("1_pnhai")
+next = ExtResource("2_am1cs")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
