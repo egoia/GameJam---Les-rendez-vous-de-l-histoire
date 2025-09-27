@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://leoybto0527f"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_1n3c1"]
+[ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="2_3ld65"]
+[ext_resource type="Resource" uid="uid://cii4bxiyfpvsp" path="res://Resources/Test_possi2_1.tres" id="2_gyxlf"]
+[ext_resource type="Resource" uid="uid://e24nm6sv4hmy" path="res://Resources/Test_possi2_2.tres" id="3_5v6i6"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_gyxlf"]
+[ext_resource type="Texture2D" uid="uid://ck1c8hmlpe8i5" path="res://Art/Event_2_Festin.png" id="5_tdbhk"]
+
+[resource]
+script = ExtResource("4_gyxlf")
+choix = Array[ExtResource("1_1n3c1")]([ExtResource("2_gyxlf"), ExtResource("3_5v6i6")])
+illustration = ExtResource("5_tdbhk")
+enonce = "TEST WOOOOOOOOORKS"
+decors = ExtResource("2_3ld65")
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

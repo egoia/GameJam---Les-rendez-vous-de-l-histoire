@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="StoryNode" load_steps=3 format=3 uid="uid://cug1uqvog2wda"]
+
+[ext_resource type="Script" uid="uid://bgt3hw52sujdl" path="res://Script/StoryTree/StoryNode.gd" id="1_4ksfo"]
+[ext_resource type="Resource" uid="uid://leoybto0527f" path="res://Resources/Test_Choix2.tres" id="1_ri5bc"]
+
+[resource]
+script = ExtResource("1_4ksfo")
+next = ExtResource("1_ri5bc")
+metadata/_custom_type_script = "uid://bgt3hw52sujdl"

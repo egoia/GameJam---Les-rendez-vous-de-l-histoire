@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://ceuakuoro70bo"]
+
+[ext_resource type="Resource" uid="uid://buf5sr7srmlis" path="res://Resources/Test_Event.tres" id="1_iscf5"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_jlcme"]
+
+[resource]
+script = ExtResource("1_jlcme")
+next = ExtResource("1_iscf5")
+text = "ON VOTEEEE"
+value = 3
+jauge = 1
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

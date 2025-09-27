@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=2 format=3 uid="uid://c0vk4nf32q1du"]
+
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_4mdim"]
+
+[resource]
+script = ExtResource("1_4mdim")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

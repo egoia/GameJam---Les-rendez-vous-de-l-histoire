@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=8 format=3 uid="uid://cm1fn0s1wkjhu"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_824bg"]
+[ext_resource type="Texture2D" uid="uid://byiopb8s2sc06" path="res://Art/Décor rue3.png" id="2_nxgj4"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_tmsj5"]
+[ext_resource type="Resource" uid="uid://chji37t8ruyid" path="res://Resources/Test_Possi_3_1.tres" id="2_y5xmd"]
+[ext_resource type="Texture2D" uid="uid://bctxnlaltnemd" path="res://Art/Asset_la_liberté.png" id="3_4sk6u"]
+[ext_resource type="Resource" uid="uid://dace7360dm2s1" path="res://Resources/Test_Possi_3_2.tres" id="3_rcsll"]
+[ext_resource type="Resource" uid="uid://ceuakuoro70bo" path="res://Resources/Test_Possi_3_3.tres" id="4_k7rhn"]
+
+[resource]
+script = ExtResource("2_tmsj5")
+choix = Array[ExtResource("1_824bg")]([ExtResource("2_y5xmd"), ExtResource("3_rcsll"), ExtResource("4_k7rhn")])
+illustration = ExtResource("3_4sk6u")
+enonce = "LA LIBERTEEEEEEEEEEEEEE"
+decors = ExtResource("2_nxgj4")
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

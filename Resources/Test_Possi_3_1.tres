@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://chji37t8ruyid"]
+
+[ext_resource type="Resource" uid="uid://buf5sr7srmlis" path="res://Resources/Test_Event.tres" id="1_70pc5"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_siq6s"]
+
+[resource]
+script = ExtResource("1_siq6s")
+next = ExtResource("1_70pc5")
+text = "ON FAIT LA FETE"
+value = 2
+jauge = 2
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"
