@@ -34,12 +34,7 @@ func fadeIn():
 func _process(delta: float) -> void:
 	#Testing Animations
 	if Input.is_action_pressed("Test"):
-<<<<<<< Updated upstream
 		pass
-=======
-		
-	pass
->>>>>>> Stashed changes
 
 func select_choice(choicePossibility : ChoicePossibility):
 	choixNode.hide()

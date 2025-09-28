@@ -328,6 +328,7 @@ color = Color(0, 0, 0, 1)
 [node name="Lexique" type="Node" parent="Canvas"]
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Canvas/Lexique"]
+visible = false
 offset_left = 653.0
 offset_top = 167.0
 offset_right = 1269.0
@@ -370,6 +371,7 @@ Guizot : Politicien sous la Monarchie de Juillet, il occupe de nombreux postes a
 autowrap_mode = 3
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Canvas/Lexique/ScrollContainer"]
+visible = false
 custom_minimum_size = Vector2(600, 700)
 layout_mode = 2
 bbcode_enabled = true
