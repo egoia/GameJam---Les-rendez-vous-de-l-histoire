@@ -146,7 +146,6 @@ expand_icon = true
 game_manager = NodePath("../../../..")
 
 [node name="Custom_button5" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
-visible = false
 offset_left = 1088.0
 offset_top = 752.0
 offset_right = 1269.0
