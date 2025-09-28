@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://c7i833hva6v40"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://c7i833hva6v40"]
 
+[ext_resource type="Texture2D" uid="uid://ck1c8hmlpe8i5" path="res://Art/Event_2_Festin.png" id="1_815e8"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_nequx"]
 [ext_resource type="Resource" uid="uid://cysg1u1milefi" path="res://Resources/Arbre Stan/choix_stan/CHX_C.tres" id="1_yb0w8"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("1_nequx")
 enonce = "Vous encouragez vos camarades à monter des barricades! La rue vous appartient!"
 titre = "La manifestation prend de l’ampleur"
+illustration = ExtResource("1_815e8")
 next = ExtResource("1_yb0w8")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

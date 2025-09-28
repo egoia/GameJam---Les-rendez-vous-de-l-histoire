@@ -10,7 +10,7 @@
 [resource]
 script = ExtResource("2_c5y75")
 choix = Array[ExtResource("1_f6x0r")]([ExtResource("2_bdh7x"), ExtResource("3_q47pf"), ExtResource("4_0kqwk")])
-illustration = ExtResource("5_qeb7f")
 enonce = "Qui doit avoir le droit de vote ?"
 titre = "Suffrage"
+illustration = ExtResource("5_qeb7f")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

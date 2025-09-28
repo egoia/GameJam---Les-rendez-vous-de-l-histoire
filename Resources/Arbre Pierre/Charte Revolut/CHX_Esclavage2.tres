@@ -10,7 +10,7 @@
 [resource]
 script = ExtResource("5_wbqm8")
 choix = Array[ExtResource("1_ft1e7")]([ExtResource("2_7p0b1"), ExtResource("3_j225f"), ExtResource("4_81xre")])
-illustration = ExtResource("5_7p0b1")
 enonce = "Que faire des 250 000 esclaves de nos colonies ?"
 titre = "Esclavage"
+illustration = ExtResource("5_7p0b1")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource("4_v3i21")
 choix = Array[ExtResource("1_4wnje")]([ExtResource("2_1n48p"), ExtResource("3_henog")])
-illustration = ExtResource("4_1n48p")
 enonce = "Le gouvernement a osé fermer les ateliers nationaux ! Quelle sera votre réponse ?"
 titre = "Fermeture des ateliers nationaux"
+illustration = ExtResource("4_1n48p")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

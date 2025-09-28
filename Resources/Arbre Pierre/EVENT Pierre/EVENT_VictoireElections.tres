@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cxajnmpmqx82b"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://cxajnmpmqx82b"]
 
+[ext_resource type="Texture2D" uid="uid://djak2rswdfrrg" path="res://Art/Asset_vote.png" id="1_glxj0"]
 [ext_resource type="Resource" uid="uid://byu4aibvnxhdp" path="res://Resources/Arbre Pierre/CHOIX Pierre/CHX_H.tres" id="1_sd1ds"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_glxj0"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("2_glxj0")
 enonce = "Votre positionnement vous place dans le bloc central modéré de Thiers. Celui-ci vous invite donc à siéger au sein du gouvernement."
 titre = "Victoire ! Et entrée au gouvernement"
+illustration = ExtResource("1_glxj0")
 next = ExtResource("1_sd1ds")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

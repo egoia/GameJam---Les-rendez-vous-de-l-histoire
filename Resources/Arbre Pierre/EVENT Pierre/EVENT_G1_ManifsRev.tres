@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://t40q4g6ckx5j"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://t40q4g6ckx5j"]
 
+[ext_resource type="Texture2D" uid="uid://b8oweax48s20y" path="res://Art/Event_3_GN.png" id="1_qr5h0"]
 [ext_resource type="Resource" uid="uid://n873tp1t5klk" path="res://Resources/Arbre Pierre/FIN Pierre/END_OrgaManifs.tres" id="1_s1kuc"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_qr5h0"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("2_qr5h0")
 enonce = "L’armée, désormais aux mains des bourgeois, n’a visiblement pas envie que vous changiez aussi vite le nouveau statu quo. Forte de son expérience passée contre vous, elle ne vous laisse aucune chance."
 titre = "La bourgeoisie protège ses intérêts"
+illustration = ExtResource("1_qr5h0")
 next = ExtResource("1_s1kuc")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
