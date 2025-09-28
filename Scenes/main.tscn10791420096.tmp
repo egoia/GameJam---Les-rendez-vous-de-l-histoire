@@ -1,8 +1,7 @@
-[gd_scene load_steps=19 format=3 uid="uid://cfq3xe8g3yvtl"]
+[gd_scene load_steps=18 format=3 uid="uid://cfq3xe8g3yvtl"]
 
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
 [ext_resource type="Resource" uid="uid://cug1uqvog2wda" path="res://Resources/InitPoint.tres" id="2_344ge"]
-[ext_resource type="Texture2D" uid="uid://7qp1j3bbl127" path="res://Art/ÉcranFin.png" id="3_h1bgf"]
 [ext_resource type="Texture2D" uid="uid://rq53vi4716a1" path="res://icon.svg" id="3_jjvhh"]
 [ext_resource type="Script" uid="uid://cid27pdm4ftu2" path="res://Script/ChoixNode.gd" id="4_344ge"]
 [ext_resource type="Texture2D" uid="uid://d1ijoy3r3livu" path="res://Art/Menu ingame.png" id="5_hptm8"]
@@ -16,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://dmju6be61xd1q" path="res://Art/Bouton1SansTexte.png" id="10_jkdf5"]
 [ext_resource type="Texture2D" uid="uid://yv87s2xk7wfe" path="res://Art/Bouton3SansTexte.png" id="10_wsu2k"]
 [ext_resource type="Texture2D" uid="uid://b0ix84j6m6cj8" path="res://Art/Bouton2SansTexte.png" id="13_k12tt"]
-[ext_resource type="Script" path="res://Script/Consequence_button.gd" id="15_k12tt"]
+[ext_resource type="Script" uid="uid://qtnmqi2lce0k" path="res://Script/Consequence_button.gd" id="15_k12tt"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21xkr"]
 
@@ -28,7 +27,7 @@ duration = 0.5
 [node name="Decors" type="Sprite2D" parent="."]
 position = Vector2(961.37494, 540.5)
 scale = Vector2(1, 0.842)
-texture = ExtResource("3_h1bgf")
+texture = ExtResource("3_jjvhh")
 
 [node name="Canvas" type="CanvasLayer" parent="."]
 
@@ -177,6 +176,15 @@ icon_alignment = 1
 expand_icon = true
 game_manager = NodePath("../../../..")
 
+[node name="2Buttons" type="Node" parent="Canvas/Choix2D"]
+script = ExtResource("5_ynf5e")
+
+[node name="3Buttons" type="Node" parent="Canvas/Choix2D"]
+script = ExtResource("7_hptm8")
+
+[node name="Choix" type="Node" parent="Canvas"]
+script = ExtResource("4_344ge")
+
 [node name="Concequence" type="Node" parent="Canvas"]
 script = ExtResource("8_d1ilt")
 
@@ -255,47 +263,38 @@ script = ExtResource("9_ynf5e")
 
 [node name="ResumePartie" type="Label" parent="Canvas/Fin"]
 visible = false
-offset_left = 980.0
-offset_top = 222.0
-offset_right = 1260.0
-offset_bottom = 908.0
+offset_left = 1083.0
+offset_top = 248.0
+offset_right = 1453.0
+offset_bottom = 388.0
 theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
 theme_override_fonts/font = ExtResource("7_fdnlq")
 text = "LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG "
 horizontal_alignment = 1
+vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="LivreHistoire" type="Label" parent="Canvas/Fin"]
 visible = false
-offset_left = 290.0
-offset_top = 600.0
-offset_right = 932.0
-offset_bottom = 913.0
+offset_left = 504.0
+offset_top = 248.0
+offset_right = 874.0
+offset_bottom = 388.0
 theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
 theme_override_fonts/font = ExtResource("7_fdnlq")
 text = "LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG "
+horizontal_alignment = 1
+vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="Button" type="Button" parent="Canvas/Fin"]
 visible = false
-offset_left = 1453.0
-offset_top = 840.0
-offset_right = 1601.0
-offset_bottom = 892.0
+offset_left = 897.0
+offset_top = 487.0
+offset_right = 1045.0
+offset_bottom = 539.0
 text = "Sample text"
 autowrap_mode = 3
-
-[node name="Label" type="Label" parent="Canvas/Fin"]
-visible = false
-offset_left = 306.0
-offset_top = 552.0
-offset_right = 840.0
-offset_bottom = 611.0
-theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
-theme_override_constants/outline_size = 1
-theme_override_fonts/font = ExtResource("7_fdnlq")
-theme_override_font_sizes/font_size = 30
-text = "Leçon d'histoire : l'année 1848"
 
 [node name="Reactions" type="Node" parent="Canvas"]
 
