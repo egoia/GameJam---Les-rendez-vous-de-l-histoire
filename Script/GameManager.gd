@@ -75,6 +75,8 @@ func fork():
 
 func load_consequence_UI(consequence : Evenement):
 	#transition consequence
+	if consequence.musique !=null : 
+		Dj.play_song(consequence.musique)
 	if consequence.decors !=null : 
 		backgroud.texture = consequence.decors
 	consequenceNode.setUp(consequence)
@@ -82,6 +84,8 @@ func load_consequence_UI(consequence : Evenement):
 	
 func load_choice_UI(choix : Choix):
 	#transition  prochain choix?
+	if choix.musique !=null : 
+		Dj.play_song(choix.musique)
 	if(choix.decors!=null):
 		backgroud.texture = choix.decors
 	
@@ -91,6 +95,8 @@ func load_choice_UI(choix : Choix):
 		choixNode.setUp2Bts(choix)
 	
 func load_end_UI(end : Fin):
+	if end.musique !=null : 
+		Dj.play_song(end.musique)
 	if(end.decors!=null):
 		backgroud.texture = end.decors
 	fin_node.setUp(end)

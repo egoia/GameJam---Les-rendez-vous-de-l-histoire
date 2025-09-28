@@ -4,6 +4,8 @@ extends Button
 
 @onready var Fade: ColorRect = $"../BlackScreen"
 @export var duration : float
+const MUS_MENU_LOOPED = preload("uid://c7bh60hvx3owo")
+
 
 
 func _on_button_up() -> void:

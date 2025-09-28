@@ -15,6 +15,10 @@ run/main_scene="uid://cs2sol80mp67a"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Dj="*res://Scenes/dj.tscn"
+
 [display]
 
 window/size/viewport_width=1920
@@ -25,6 +29,7 @@ window/size/borderless=true
 
 folder_colors={
 "res://Art/": "red",
+"res://Audio/": "pink",
 "res://Resources/": "purple",
 "res://Scenes/": "yellow",
 "res://Script/": "green",
