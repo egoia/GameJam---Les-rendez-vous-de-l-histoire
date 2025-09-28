@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource("1_j1dib")
-enonce = "(résumer choix joueurs)"
+enonce = "Vos propositions ont bien été reçu par le roi. Hate de voir à quoi va ressembler ce nouveau gouvernement royaliste!"
 titre = "Propositions faites au roi"
 next = ExtResource("1_fiptt")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

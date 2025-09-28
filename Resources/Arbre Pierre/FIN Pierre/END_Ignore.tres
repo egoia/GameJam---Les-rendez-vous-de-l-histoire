@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://st6vny4h8ffh"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://st6vny4h8ffh"]
 
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_kfh5x"]
 [ext_resource type="AudioStream" uid="uid://c6wn0o8xeqjjt" path="res://Audio/ogg/MUS_End_Neutral_Looped.ogg" id="1_vs27b"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_wok67"]
 
 [resource]
 script = ExtResource("1_wok67")
+history_book = "Un gouvernement provisoire est installé dès la chute de la Monarchie de Juillet, après l’abdication du roi Louis-Philippe. Le suffrage universel masculin est instauré et le gouvernement abolit l’esclavage dans les colonies. Il prend également des mesures sociales telles que la création d’ateliers nationaux. Il proclame le \"droit au travail\"."
 enonce = "Si ce gouvernement existe, c’est en grande partie grâce à vous. Tout cela pour au final perdre les élections, et en même temps votre importance au sein de celui-ci. Il reste principalement bourgeois, et vos idées de réformes n’ont guère plu à vos pairs …Vous avez tenté de les convaincre une fois encore, avec la création d’un Ministère du Travail, mais votre temps est révolu. Leur regard est maintenant tourné sur Thiers, qui continue sa pente vers le conservatisme."
+decors = ExtResource("1_kfh5x")
 titre = "L'opposant sans voix"
 musique = ExtResource("1_vs27b")
 metadata/_custom_type_script = "uid://de6aut023am28"

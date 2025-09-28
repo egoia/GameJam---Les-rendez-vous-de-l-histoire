@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://d2mihu4necjf2"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://d2mihu4necjf2"]
 
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_0j16v"]
 [ext_resource type="AudioStream" uid="uid://c6wn0o8xeqjjt" path="res://Audio/ogg/MUS_End_Neutral_Looped.ogg" id="1_7k4sm"]
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_kfhmo"]
 
 [resource]
 script = ExtResource("1_0j16v")
+history_book = "Suite à la campagne des banquets de 1848, le roi Louis-Philippe abdique. La 2e République est alors proclamée et le gouvernement par interim abolit l’esclavage et met en place le suffrage universel masculin. Sa position se confirme suite à la victoire des modérés aux élections d’avril 1848. Le gouvernement dirigé par Thiers poursuit sans encombre sa politique de développement économique."
 enonce = "Vous avez aidé ce gouvernement à prendre forme, tout en prenant bien soin de garder les choses en main. Le changement c’est bien, mais pas trop vite! Aux côtés de Thiers, vous réprimez les ouvriers dans un bain de sang, marquant les traces de votre gouvernement axé sur le développement économique."
+decors = ExtResource("1_kfhmo")
 titre = "Le briseur de manifestations"
 musique = ExtResource("1_7k4sm")
 metadata/_custom_type_script = "uid://de6aut023am28"

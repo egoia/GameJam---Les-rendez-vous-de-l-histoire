@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://c2xtai7cdkood"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://c2xtai7cdkood"]
 
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_ebjto"]
 [ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_iocm6"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_p0gbe"]
 
 [resource]
 script = ExtResource("1_p0gbe")
+history_book = "En février 1848, Louis-Philippe abdique au profit de son fils Philippe VII. Le jeune roi signe une nouvelle Charte rétablissant quelques libertés, stabilisant ainsi la situation politique pour quelques années encore. Thiers rentre au gouvernement et poursuit sa politique de développement industriel."
 enonce = "La monarchie vous a déçu une fois de plus, et vous avez préféré vous retirer. Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
+decors = ExtResource("1_ebjto")
 titre = "Déçu par la couronne"
 musique = ExtResource("1_iocm6")
 metadata/_custom_type_script = "uid://de6aut023am28"
