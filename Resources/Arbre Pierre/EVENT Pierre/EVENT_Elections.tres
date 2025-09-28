@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://134dq346b1t2"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://134dq346b1t2"]
 
 [ext_resource type="Resource" uid="uid://bhr558wr6af55" path="res://Resources/Arbre Pierre/FORKS Pierre/FORK_Elections.tres" id="1_h3n4j"]
+[ext_resource type="Texture2D" uid="uid://djak2rswdfrrg" path="res://Art/Asset_vote.png" id="1_sui5u"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_sui5u"]
 
 [resource]
 script = ExtResource("2_sui5u")
 enonce = "Les 880 députés ont été élus. Les modérés l'emportent haut la main avec près de 500 députés. Le reste se partage à la marge entre les royalistes/conservateurs et les socialistes/révolutionnaires."
 titre = "Le résultat des élections !"
+illustration = ExtResource("1_sui5u")
 next = ExtResource("1_h3n4j")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
