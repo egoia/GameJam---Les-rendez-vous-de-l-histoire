@@ -11,8 +11,6 @@ var revolutionnary_value : int = 0
 @onready var Fade: ColorRect = $"Canvas/BlackScreen"
 @export var duration : float = 1
 
-@export var durationPos : float = 1
-
 @onready var choixNode: Node2D = $Canvas/Choix2D
 @onready var consequenceNode: Node = $Canvas/Concequence
 @onready var fin_node: Node = $Canvas/Fin
@@ -37,18 +35,10 @@ func _process(delta: float) -> void:
 	
 	#Testing Animations
 	if Input.is_action_pressed("Test"):
-		await hideChoixUI()
+		#await choixNode.hideChoixUI()
+		#await showChoixUI()
+		pass
 	
-
-func hideChoixUI():
-	var tween = create_tween()
-	tween.tween_property(choixNode , "position" , Vector2(0,1048.0),  durationPos)
-	await tween.finished
-	
-func showChoixUI():
-	var tween = create_tween()
-	tween.tween_property(choixNode , "position" , Vector2(0,0),  durationPos)
-	await tween.finished
 
 func select_choice(choicePossibility : ChoicePossibility):
 	choixNode.choixHide()
@@ -113,6 +103,10 @@ func load_choice_UI(choix : Choix):
 	else:
 		choixNode.setUp2Bts(choix)
 	choixNode.choixShow()
+	await choixNode.showChoixUI()
+	
+	
+	
 	
 func load_end_UI(end : Fin):
 	if end.musique !=null : 

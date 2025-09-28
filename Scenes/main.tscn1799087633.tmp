@@ -25,6 +25,8 @@
 script = ExtResource("1_jjgbg")
 current_node = ExtResource("2_344ge")
 duration = 0.5
+durationHideChoice = null
+durationShowChoice = null
 
 [node name="Decors" type="Sprite2D" parent="."]
 position = Vector2(961.37494, 540.5)
@@ -359,9 +361,10 @@ text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 autowrap_mode = 3
 
 [node name="BlackScreen" type="ColorRect" parent="Canvas"]
+visible = false
 modulate = Color(0, 0, 0, 1)
 self_modulate = Color(0, 0, 0, 1)
-offset_right = 1933.0
+offset_right = 1911.0
 offset_bottom = 1080.0
 color = Color(0, 0, 0, 1)
 
