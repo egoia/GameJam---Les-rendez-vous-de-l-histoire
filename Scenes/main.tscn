@@ -178,6 +178,30 @@ game_manager = NodePath("../../../..")
 [node name="Concequence" type="Node" parent="Canvas"]
 script = ExtResource("8_d1ilt")
 
+[node name="BackGroundIlustration" type="TextureRect" parent="Canvas/Concequence"]
+visible = false
+offset_left = 591.0
+offset_top = 133.0
+offset_right = 1322.0
+offset_bottom = 966.0
+texture = ExtResource("5_hptm8")
+
+[node name="Panel" type="Panel" parent="Canvas/Concequence"]
+visible = false
+offset_left = 727.0
+offset_top = 391.0
+offset_right = 1198.0
+offset_bottom = 706.0
+
+[node name="Ilustration" type="TextureRect" parent="Canvas/Concequence"]
+visible = false
+offset_left = 735.0
+offset_top = 400.0
+offset_right = 1189.0
+offset_bottom = 700.0
+texture = ExtResource("6_d1ilt")
+stretch_mode = 4
+
 [node name="Titre" type="Label" parent="Canvas/Concequence"]
 visible = false
 offset_left = 633.0

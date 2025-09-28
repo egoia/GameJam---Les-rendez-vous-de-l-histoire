@@ -3,6 +3,8 @@ extends Node
 @onready var ilustration: TextureRect = $Ilustration
 @onready var enonce: Label = $Enonce
 @onready var titre: Label = $Titre
+@onready var back_ground_ilustration: TextureRect = $BackGroundIlustration
+@onready var panel: Panel = $Panel
 
 @onready var _2Bts: Node = $"2Buttons"
 @onready var _3Bts: Node = $"3Buttons"
@@ -12,10 +14,16 @@ func hide() :
 	_3Bts.Hide()
 	ilustration.visible = false
 	enonce.visible = false
+	back_ground_ilustration.visible = false
+	panel.visible = false
+	titre.visible = false
 	
 func show():
 	ilustration.visible = true
 	enonce.visible = true
+	back_ground_ilustration.visible = true
+	panel.visible = true
+	titre.visible = true
 	
 
 func _ready() -> void:

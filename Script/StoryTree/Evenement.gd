@@ -5,3 +5,4 @@ extends StoryNode
 @export var decors : Texture2D
 @export var titre : String
 @export var musique : AudioStream
+@export var illustration : Texture2D
