@@ -4,6 +4,6 @@
 
 [resource]
 script = ExtResource("1_guf13")
-enonce = "(1a. La monarchie vous a déçu une fois de plus, et vous avez préféré vous retirer.1b. La charte du roi était principalement en ligne avec vos opinions! Mais quelle qu'en soit la raison, vous l’avez refusée.) Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
+enonce = "La charte du roi était principalement en ligne avec vos opinions! Mais quelle qu'en soit la raison, vous l’avez refusée. Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
 titre = "Déçu par la couronne"
 metadata/_custom_type_script = "uid://de6aut023am28"

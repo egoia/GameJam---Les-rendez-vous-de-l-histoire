@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cxj664nqgc6mu"]
 
-[ext_resource type="Resource" uid="uid://d3hhcp822bgq6" path="res://Resources/end_stan/End_Un_allié_royal.tres" id="1_5atcq"]
+[ext_resource type="Resource" uid="uid://drn52gygxj7jt" path="res://Resources/fork_stan/Fork_ProRoi1.tres" id="1_5atcq"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_otnbm"]
 
 [resource]

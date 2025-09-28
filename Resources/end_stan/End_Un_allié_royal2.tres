@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://cevkk5s7kot3"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_x38qf"]
+
+[resource]
+script = ExtResource("1_x38qf")
+enonce = "Ravie de votre nouvelle entente avec le roi, vous avez signé la charte. La monarchie reste fermement en place grâce à votre soutien, et vous avez une place confortable parmi les hauts placés. Vous avez sûrement de belles années aux gouvernement devant vous! Mais à quel prix?"
+titre = "Un allié royal"
+metadata/_custom_type_script = "uid://de6aut023am28"
