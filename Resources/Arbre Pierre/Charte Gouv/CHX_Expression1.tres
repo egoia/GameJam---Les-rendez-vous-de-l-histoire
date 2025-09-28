@@ -10,7 +10,7 @@
 [resource]
 script = ExtResource("2_547mb")
 choix = Array[ExtResource("1_33co6")]([ExtResource("2_ysgfy"), ExtResource("3_lc7ar"), ExtResource("4_yvra5")])
-illustration = ExtResource("5_hiswn")
 enonce = "Quelle liberté accorder à l’expression des citoyens ?"
 titre = "Liberté d’expression"
+illustration = ExtResource("5_hiswn")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"
