@@ -2,7 +2,7 @@
 
 [ext_resource type="AudioStream" uid="uid://c0sqyb5asaf4j" path="res://Audio/ogg/MUS_End_Revolutionl_Looped.ogg" id="1_fbur6"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_ojk7o"]
-[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_xlyjf"]
+[ext_resource type="Texture2D" uid="uid://7qp1j3bbl127" path="res://Art/ÉcranFin.png" id="1_xlyjf"]
 
 [resource]
 script = ExtResource("1_ojk7o")

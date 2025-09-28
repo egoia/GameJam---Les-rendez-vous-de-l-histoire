@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://st6vny4h8ffh"]
 
-[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_kfh5x"]
+[ext_resource type="Texture2D" uid="uid://7qp1j3bbl127" path="res://Art/ÉcranFin.png" id="1_kfh5x"]
 [ext_resource type="AudioStream" uid="uid://c6wn0o8xeqjjt" path="res://Audio/ogg/MUS_End_Neutral_Looped.ogg" id="1_vs27b"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_wok67"]
 

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://c5q0ingmit2a8"]
 
-[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_sbol6"]
+[ext_resource type="Texture2D" uid="uid://7qp1j3bbl127" path="res://Art/ÉcranFin.png" id="1_sbol6"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_xka61"]
 [ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_ykt5g"]
 

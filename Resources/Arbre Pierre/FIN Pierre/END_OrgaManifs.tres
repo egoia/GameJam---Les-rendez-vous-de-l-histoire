@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://n873tp1t5klk"]
 
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_h2ahg"]
-[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_qjryh"]
+[ext_resource type="Texture2D" uid="uid://7qp1j3bbl127" path="res://Art/ÉcranFin.png" id="1_qjryh"]
 [ext_resource type="AudioStream" uid="uid://c0sqyb5asaf4j" path="res://Audio/ogg/MUS_End_Revolutionl_Looped.ogg" id="1_y2p2n"]
 
 [resource]
