@@ -7,4 +7,6 @@
 script = ExtResource("1_fwl2x")
 next = ExtResource("1_iency")
 text = "Libérons-les tous avec une  compensation pour les propriétaires qui s’en trouveront lésés."
+value = 1
+jauge = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"
