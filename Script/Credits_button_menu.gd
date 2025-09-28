@@ -3,7 +3,8 @@ extends Button
 @onready var root: Node = $"../.."
 
 @onready var Fade: ColorRect = $"../BlackScreen"
-@export var duration : float
+@export var duration : float = 0.5
+
 const MUS_MENU_LOOPED = preload("uid://c7bh60hvx3owo")
 
 
@@ -11,7 +12,7 @@ const MUS_MENU_LOOPED = preload("uid://c7bh60hvx3owo")
 func _on_button_up() -> void:
 	Fade.visible = true
 	await FadeOut()
-	root.get_tree().change_scene_to_file("res://Scenes/credits.tscn")
+	root.get_tree().change_scene_to_file("res://Scenes/start_menu.tscn")
 	 # Replace with function body.
 
 func FadeOut():

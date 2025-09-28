@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlhtvp3vxcbf7"]
+
+[ext_resource type="Texture2D" uid="uid://dxauafg142q41" path="res://Art/Crédits.png" id="1_gryuy"]
+[ext_resource type="Script" uid="uid://bty6p5i7rsjib" path="res://Script/credits_Scene.gd" id="1_xelri"]
+[ext_resource type="FontFile" uid="uid://0iemls20w2l4" path="res://Art/TheanoDidot-Regular-Font.ttf" id="2_1bamb"]
+[ext_resource type="Texture2D" uid="uid://dmju6be61xd1q" path="res://Art/Bouton1SansTexte.png" id="2_ccovl"]
+[ext_resource type="Script" uid="uid://ce3hc7tmv8y0x" path="res://Script/Credits_button_menu.gd" id="4_1bamb"]
+
+[node name="Credits" type="Node"]
+script = ExtResource("1_xelri")
+duration = 0.5
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(962, 552.50006)
+scale = Vector2(1.0010418, 0.9257812)
+texture = ExtResource("1_gryuy")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button_Menu" type="Button" parent="CanvasLayer"]
+offset_left = 788.0
+offset_top = 900.0
+offset_right = 1122.0
+offset_bottom = 1042.0
+focus_mode = 0
+theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
+theme_override_colors/font_pressed_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
+theme_override_colors/font_hover_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
+theme_override_colors/font_hover_pressed_color = Color(0.3529412, 0.23529412, 0.15686275, 1)
+theme_override_fonts/font = ExtResource("2_1bamb")
+theme_override_font_sizes/font_size = 70
+text = "MENU"
+icon = ExtResource("2_ccovl")
+flat = true
+autowrap_mode = 3
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("4_1bamb")
+
+[node name="BlackScreen" type="ColorRect" parent="CanvasLayer"]
+self_modulate = Color(0, 0, 0, 1)
+offset_right = 1922.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[connection signal="button_down" from="CanvasLayer/Button_Menu" to="CanvasLayer/Button_Menu" method="_on_button_down"]
+[connection signal="button_up" from="CanvasLayer/Button_Menu" to="CanvasLayer/Button_Menu" method="_on_button_up"]
+[connection signal="mouse_entered" from="CanvasLayer/Button_Menu" to="CanvasLayer/Button_Menu" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Button_Menu" to="CanvasLayer/Button_Menu" method="_on_mouse_exited"]

@@ -13,16 +13,17 @@
 script = ExtResource("1_lfskg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(954, 586)
+position = Vector2(960, 586)
 texture = ExtResource("1_m6uer")
+metadata/_edit_group_ = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Button_Jouer" type="Button" parent="CanvasLayer"]
-offset_left = 670.0
-offset_top = 272.0
-offset_right = 1289.0
-offset_bottom = 496.0
+offset_left = 643.0
+offset_top = 279.0
+offset_right = 1262.0
+offset_bottom = 503.0
 focus_mode = 0
 icon = ExtResource("2_a43kq")
 flat = true
@@ -33,15 +34,16 @@ duration = 0.5
 
 [node name="Button_Credits" type="Button" parent="CanvasLayer"]
 offset_left = 665.0
-offset_top = 546.0
+offset_top = 539.0
 offset_right = 1261.0
-offset_bottom = 798.0
+offset_bottom = 791.0
 focus_mode = 0
 icon = ExtResource("4_i2i62")
 flat = true
 icon_alignment = 1
 expand_icon = true
 script = ExtResource("5_8u0lp")
+duration = 0.5
 
 [node name="Button_exit" type="Button" parent="CanvasLayer"]
 offset_left = 662.0
@@ -55,10 +57,8 @@ expand_icon = true
 script = ExtResource("6_i2i62")
 
 [node name="BlackScreen" type="ColorRect" parent="CanvasLayer"]
-visible = false
-modulate = Color(0, 0, 0, 0)
 self_modulate = Color(0, 0, 0, 1)
-offset_right = 1911.0
+offset_right = 1921.0
 offset_bottom = 1080.0
 color = Color(0, 0, 0, 1)
 
@@ -66,6 +66,8 @@ color = Color(0, 0, 0, 1)
 [connection signal="button_up" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_button_up"]
 [connection signal="mouse_entered" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_mouse_exited"]
+[connection signal="button_down" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_button_down"]
+[connection signal="button_up" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_button_up"]
 [connection signal="mouse_entered" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_mouse_exited"]
 [connection signal="mouse_entered" from="CanvasLayer/Button_exit" to="CanvasLayer/Button_exit" method="_on_mouse_entered"]

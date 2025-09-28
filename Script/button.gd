@@ -15,4 +15,12 @@ func setUp():
 
 func _on_button_up() -> void:
 	get_parent().Hide()
+	
+	var tween = create_tween()
+	tween.tween_property(self,"modulate",Color(1.0, 1.0, 1.0, 1.0), 0.08)
+	
 	game_manager.select_choice(choice)
+	
+func _on_button_down() -> void:
+	var tween = create_tween()
+	tween.tween_property(self,"modulate",Color(0.651, 0.651, 0.651, 1.0), 0.08)
