@@ -2,6 +2,7 @@ extends Node
 
 @onready var ilustration: TextureRect = $Ilustration
 @onready var enonce: Label = $Enonce
+@onready var titre: Label = $Titre
 
 @onready var _2Bts: Node = $"2Buttons"
 @onready var _3Bts: Node = $"3Buttons"
@@ -28,6 +29,7 @@ func _ready() -> void:
 func setUp2Bts(choix : Choix):
 	ilustration.texture =  choix.illustration
 	enonce.text = choix.enonce
+	titre.text = choix.titre
 	
 	for i in choix.choix.size():
 		fillButton(_2Bts.get_child(i), choix.choix[i])
@@ -37,6 +39,8 @@ func setUp2Bts(choix : Choix):
 func setUp3Bts(choix : Choix):
 	ilustration.texture =  choix.illustration
 	enonce.text = choix.enonce
+	titre.text = choix.titre
+	
 	
 	for i in choix.choix.size():
 		fillButton(_3Bts.get_child(i), choix.choix[i])

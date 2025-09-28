@@ -55,6 +55,19 @@ offset_bottom = 700.0
 texture = ExtResource("6_d1ilt")
 stretch_mode = 4
 
+[node name="Titre" type="Label" parent="Canvas/Choix"]
+offset_left = 634.0
+offset_top = 161.0
+offset_right = 1284.0
+offset_bottom = 214.0
+theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
+theme_override_fonts/font = ExtResource("7_fdnlq")
+theme_override_font_sizes/font_size = 24
+text = "ASJKSHJKDJKLDJKLDSJKLDSJKDJKSD"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
 [node name="Enonce" type="Label" parent="Canvas/Choix"]
 offset_left = 631.0
 offset_top = 200.0
