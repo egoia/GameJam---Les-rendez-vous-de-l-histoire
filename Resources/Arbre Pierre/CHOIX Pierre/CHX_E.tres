@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_ynxam"]
 [ext_resource type="Resource" uid="uid://bh5nbdd5wqxl" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_E1.tres" id="2_erv43"]
 [ext_resource type="Resource" uid="uid://coxf00fugd3rl" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_E2.tres" id="3_soclx"]
-[ext_resource type="Texture2D" uid="uid://c8vihy1atfpjw" path="res://Art/Décor gouvernement2.png" id="4_erv43"]
+[ext_resource type="Texture2D" uid="uid://3jb77844ivd7" path="res://Art/Event_4_2èmeRep.png" id="4_erv43"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_u7se4"]
 
 [resource]
