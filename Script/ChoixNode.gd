@@ -6,6 +6,16 @@ extends Node
 @onready var _2Bts: Node = $"2Buttons"
 @onready var _3Bts: Node = $"3Buttons"
 
+func hide() : 
+	_2Bts.Hide()
+	_3Bts.Hide()
+	ilustration.visible = false
+	enonce.visible = false
+	
+func show():
+	ilustration.visible = true
+	enonce.visible = true
+	
 
 func _ready() -> void:
 	#_2Bts.get_script().Hide()
@@ -37,8 +47,6 @@ func fillButton(customBtNode, possibility ):
 	customBtNode.choice = possibility
 	customBtNode.setUp()
 	
-	
-	pass
 	
 
 	

@@ -35,6 +35,7 @@ func _process(delta: float) -> void:
 	pass
 
 func select_choice(choicePossibility : ChoicePossibility):
+	choixNode.hide()
 	match choicePossibility.jauge:
 		Jauge.REPRESSION : 
 			repression_value+= choicePossibility.value
@@ -93,6 +94,7 @@ func load_choice_UI(choix : Choix):
 		choixNode.setUp3Bts(choix)
 	else:
 		choixNode.setUp2Bts(choix)
+	choixNode.show()
 	
 func load_end_UI(end : Fin):
 	if end.musique !=null : 
