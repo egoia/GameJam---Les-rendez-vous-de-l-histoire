@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://cka376in05w3l"]
+
+[ext_resource type="Resource" uid="uid://4ve2kmxmowh4" path="res://Resources/Arbre Stan/choix_stan/CHX_M_Royal.tres" id="1_3e1vp"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_ns1se"]
+
+[resource]
+script = ExtResource("1_ns1se")
+enonce = "Il est désormais l’heure d’établir la liste de vos propositions à soumettre au roi. Il va certainement les prendre en considération pour mettre au point sa nouvelle charte."
+titre = "Le roi demande les réformes à adopter"
+next = ExtResource("1_3e1vp")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

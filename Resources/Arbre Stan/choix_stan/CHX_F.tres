@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://v370s03qwg"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_aqqwm"]
+[ext_resource type="Resource" uid="uid://d11pd5lke4oxq" path="res://Resources/Arbre Stan/Possib_Stan/Poss_F1.tres" id="2_m3dfp"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_xmb23"]
+[ext_resource type="Resource" uid="uid://buht8ud471bvl" path="res://Resources/Arbre Stan/Possib_Stan/Poss_F2.tres" id="3_4wo7p"]
+[ext_resource type="Texture2D" uid="uid://qsv53drhesv0" path="res://Art/Asset_charte.png" id="4_kevbi"]
+
+[resource]
+script = ExtResource("2_xmb23")
+choix = Array[ExtResource("1_aqqwm")]([ExtResource("2_m3dfp"), ExtResource("3_4wo7p")])
+illustration = ExtResource("4_kevbi")
+enonce = "Le roi a publié sa nouvelle charte !La censure est limitée, la liberté de la presse encadrée et le suffrage censitaire reste en vigueur.  Le Roi a décidé de ne pas s’encombrer de la question de l’esclavage, l’Assemblée verra plus tard."
+titre = "Le retour à l’ordre…"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

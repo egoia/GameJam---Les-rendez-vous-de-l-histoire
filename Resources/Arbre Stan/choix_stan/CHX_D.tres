@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://djyv0gvgl1on7"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_gtg3r"]
+[ext_resource type="Resource" uid="uid://be62qu1hb6uuw" path="res://Resources/Arbre Stan/Possib_Stan/Poss_D1.tres" id="2_ekiwp"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_ntm1x"]
+[ext_resource type="Resource" uid="uid://v1t3gfyogsp0" path="res://Resources/Arbre Stan/Possib_Stan/Poss_D2.tres" id="3_74mjj"]
+[ext_resource type="Texture2D" uid="uid://b8rnodjy6wl6i" path="res://Art/Asset_couronne.png" id="4_5q7ec"]
+
+[resource]
+script = ExtResource("2_ntm1x")
+choix = Array[ExtResource("1_gtg3r")]([ExtResource("2_ekiwp"), ExtResource("3_74mjj")])
+illustration = ExtResource("4_5q7ec")
+enonce = "Suite au départ soudain de son père, Philippe d’Orléans tente de se présenter au peuple…"
+titre = "24 février 1848 : Le roi a fui !"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

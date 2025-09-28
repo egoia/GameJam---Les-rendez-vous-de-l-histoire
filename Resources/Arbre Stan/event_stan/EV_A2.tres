@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://c33g8mxsc381r"]
+
+[ext_resource type="Texture2D" uid="uid://byiopb8s2sc06" path="res://Art/Décor rue3.png" id="1_5a14f"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_5fvqm"]
+[ext_resource type="Resource" uid="uid://b30r33hbweg4t" path="res://Resources/Arbre Stan/choix_stan/CHX_B.tres" id="2_pcpxq"]
+
+[resource]
+script = ExtResource("1_5fvqm")
+enonce = "Se faire entendre par le peuple, c'est se faire entendre par le coeur du pays!"
+decors = ExtResource("1_5a14f")
+titre = "Au coeur de la rue"
+next = ExtResource("2_pcpxq")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

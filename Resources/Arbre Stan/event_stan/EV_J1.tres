@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://b5c30yknqdht6"]
+
+[ext_resource type="Resource" uid="uid://c5q0ingmit2a8" path="res://Resources/Arbre Stan/end_stan/End_Le_Royaliste.tres" id="1_cdhmj"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_t41ft"]
+
+[resource]
+script = ExtResource("1_t41ft")
+enonce = "Pour apaiser la situation, le Roi abdique au profit de son fils. La peur qui règne au sein du peuple pousse celui-ci à accepter cette offre de paix, sans plus de révolte."
+titre = "Le roi abdique"
+next = ExtResource("1_cdhmj")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://xs3k8ynlsnhv"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_dvlnp"]
+[ext_resource type="Resource" uid="uid://fg2fy76jys01" path="res://Resources/Arbre Stan/Possib_Stan/Poss_O1_Royal.tres" id="2_k2d3p"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_red4c"]
+[ext_resource type="Resource" uid="uid://cpj6d7mc1r3mw" path="res://Resources/Arbre Stan/Possib_Stan/Poss_O2_Royal.tres" id="3_nrr0y"]
+[ext_resource type="Texture2D" uid="uid://davdti0et01vs" path="res://Art/Asset_suffrage universel.png" id="4_ir75w"]
+
+[resource]
+script = ExtResource("2_red4c")
+choix = Array[ExtResource("1_dvlnp")]([ExtResource("2_k2d3p"), ExtResource("3_nrr0y")])
+illustration = ExtResource("4_ir75w")
+enonce = "Qui doit avoir le droit de vote ?"
+titre = "Suffrage"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

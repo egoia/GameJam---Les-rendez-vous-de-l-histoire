@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://cysg1u1milefi"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_kb27y"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_1uk64"]
+[ext_resource type="Resource" uid="uid://cgh5ycrbkynpo" path="res://Resources/Arbre Stan/Possib_Stan/Poss_C1.tres" id="2_jfta4"]
+[ext_resource type="Resource" uid="uid://dw7gwvhnl2crx" path="res://Resources/Arbre Stan/Possib_Stan/Poss_C2.tres" id="3_re51v"]
+[ext_resource type="Texture2D" uid="uid://b8oweax48s20y" path="res://Art/Event_3_GN.png" id="4_238yu"]
+
+[resource]
+script = ExtResource("2_1uk64")
+choix = Array[ExtResource("1_kb27y")]([ExtResource("2_jfta4"), ExtResource("3_re51v")])
+illustration = ExtResource("4_238yu")
+enonce = "La Garde Nationale est sur place et prête à agir. Quelle est la priorité?"
+titre = "23 février 1848 : La milice est là !"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

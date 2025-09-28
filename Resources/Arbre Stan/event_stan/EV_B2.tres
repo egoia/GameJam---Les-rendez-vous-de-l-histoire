@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://db327hfxhhih8"]
+
+[ext_resource type="Resource" uid="uid://cysg1u1milefi" path="res://Resources/Arbre Stan/choix_stan/CHX_C.tres" id="1_2k4r8"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_3ak7j"]
+
+[resource]
+script = ExtResource("1_3ak7j")
+enonce = "L’armée surgit au banquet et vide la salle par la force. Une telle brutalité inquiète le peuple pour les représailles à venir …"
+titre = "L’armée réprime le banquet"
+next = ExtResource("1_2k4r8")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

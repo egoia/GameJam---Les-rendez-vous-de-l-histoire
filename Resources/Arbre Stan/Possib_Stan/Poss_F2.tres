@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://buht8ud471bvl"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_4owen"]
+[ext_resource type="Resource" uid="uid://utxybipjyl67" path="res://Resources/Arbre Stan/event_stan/EV_F2.tres" id="1_5hier"]
+
+[resource]
+script = ExtResource("1_4owen")
+next = ExtResource("1_5hier")
+text = "Cette Monarchie ne changera rien de significatif … Je quitte le gouvernement."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

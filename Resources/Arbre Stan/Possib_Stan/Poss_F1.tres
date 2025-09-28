@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://d11pd5lke4oxq"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_fa6f8"]
+[ext_resource type="Resource" uid="uid://cxj664nqgc6mu" path="res://Resources/Arbre Stan/event_stan/EV_F1.tres" id="1_r7ubh"]
+
+[resource]
+script = ExtResource("1_fa6f8")
+next = ExtResource("1_r7ubh")
+text = "Voilà qui me semble bien raisonnable. J’approuve !"
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://b30r33hbweg4t"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_rlcky"]
+[ext_resource type="Resource" uid="uid://beiqcgtsohtwd" path="res://Resources/Arbre Stan/Possib_Stan/Poss_B1.tres" id="2_fge6s"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_gax8k"]
+[ext_resource type="Resource" uid="uid://csuk0qjkwgva6" path="res://Resources/Arbre Stan/Possib_Stan/Poss_B2.tres" id="3_pdrlf"]
+[ext_resource type="Resource" uid="uid://c1tsm82la1h4b" path="res://Resources/Arbre Stan/Possib_Stan/Poss_B3.tres" id="4_ncini"]
+[ext_resource type="Texture2D" uid="uid://ck1c8hmlpe8i5" path="res://Art/Event_2_Festin.png" id="5_enhp6"]
+
+[resource]
+script = ExtResource("2_gax8k")
+choix = Array[ExtResource("1_rlcky")]([ExtResource("2_fge6s"), ExtResource("3_pdrlf"), ExtResource("4_ncini")])
+illustration = ExtResource("5_enhp6")
+enonce = "Les soldats empêchent les Parisiens d’accéder au banquet !"
+titre = "22 février 1848 : un banquet compromis."
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

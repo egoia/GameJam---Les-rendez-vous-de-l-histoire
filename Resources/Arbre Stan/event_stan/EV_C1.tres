@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://book7ni7ws6ha"]
+
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_6qpxf"]
+[ext_resource type="Resource" uid="uid://dxw4c73lsk63p" path="res://Resources/Arbre Stan/fork_stan/Fork_Répression.tres" id="1_c1bj3"]
+
+[resource]
+script = ExtResource("1_6qpxf")
+enonce = "La milice tire dans la foule, la forçant à se disperser. À travers le chaos, les meneurs sont arrêtés ou tués."
+titre = "Les Parisiens sont massacrés !"
+next = ExtResource("1_c1bj3")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

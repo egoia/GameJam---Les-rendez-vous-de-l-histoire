@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://07d7m4s7fn8r"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_7lmfe"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_arnty"]
+[ext_resource type="Resource" uid="uid://badwctthx0rdj" path="res://Resources/Arbre Stan/Possib_Stan/Poss_A1.tres" id="2_ed31y"]
+[ext_resource type="Resource" uid="uid://c74j6sy65lklm" path="res://Resources/Arbre Stan/Possib_Stan/Poss_A2.tres" id="3_kr80a"]
+[ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="4_sclsy"]
+[ext_resource type="Texture2D" uid="uid://x1bpap2odvus" path="res://Art/Event_1.png" id="5_6iws8"]
+
+[resource]
+script = ExtResource("2_arnty")
+choix = Array[ExtResource("1_7lmfe")]([ExtResource("2_ed31y"), ExtResource("3_kr80a")])
+illustration = ExtResource("5_6iws8")
+enonce = "Les problèmes s’accumulent dans le pays! Comment comptez-vous faire entendre votre voix?"
+decors = ExtResource("4_sclsy")
+titre = "Une nouvelle ère !"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"
