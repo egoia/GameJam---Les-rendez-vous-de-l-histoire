@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://n873tp1t5klk"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://n873tp1t5klk"]
 
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_h2ahg"]
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_qjryh"]
 [ext_resource type="AudioStream" uid="uid://c0sqyb5asaf4j" path="res://Audio/ogg/MUS_End_Revolutionl_Looped.ogg" id="1_y2p2n"]
 
 [resource]
 script = ExtResource("1_h2ahg")
+history_book = "En février 1848, suite à la pression de la campagne des banquets, le roi Louis-Philippe abdique. La 2e République est proclamée le jour même. Le gouvernement par interim aboli l’esclavage et ouvre le suffrage à tous les hommes. Il faut quelques semaines au gouvernement pour calmer les ardeurs des derniers socialistes qui continuent de vouloir renverser par la force la nouvelle République."
 enonce = "Pour vous, la Révolution se vivait dans la rue, sur les barricades. C’est donc ici aussi qu’elle finit par s’éteindre…Sous votre impulsion, les parisiens se sont soulevés face à ce gouvernement bourgeois. Et vous les avez amenés dans votre chute face à cette armée qui vous voulait hors d'état de nuire. Difficile de changer le gouvernement derrière des barreaux…"
+decors = ExtResource("1_qjryh")
 titre = "Le meneur de Parisiens"
 musique = ExtResource("1_y2p2n")
 metadata/_custom_type_script = "uid://de6aut023am28"

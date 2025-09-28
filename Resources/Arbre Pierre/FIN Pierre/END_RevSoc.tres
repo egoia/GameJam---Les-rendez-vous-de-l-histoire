@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://dro1wyyn27g37"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://dro1wyyn27g37"]
 
 [ext_resource type="AudioStream" uid="uid://c0sqyb5asaf4j" path="res://Audio/ogg/MUS_End_Revolutionl_Looped.ogg" id="1_fbur6"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_ojk7o"]
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_xlyjf"]
 
 [resource]
 script = ExtResource("1_ojk7o")
+history_book = "En février 1848, les ouvriers de France se soulèvent contre le joug de la monarchie appuyée de la bourgeoisie. Les Parisiens proclament la 2e République qui devient, suite aux élections d’avril 1848, la première république socialiste d’Europe. Le gouvernement composé de socialistes, communistes, ouvriers et paysans abolit l’esclavage, établit le suffrage universel et entérine le droit au travail."
 enonce = "Votre lutte a commencé dans la rue et se termine au gouvernement, à coup de réformes. Vous avez convaincu le peuple tout en maintenant votre position socialiste, défendant les droits de chacun et assurant du travail aux ouvriers. Pas le temps d’amener les choses en douceur, vous êtes venu apporter du changement, et tout de suite! La France se souviendra de vous comme étant la personne qui a tourné la page de l’Histoire."
+decors = ExtResource("1_xlyjf")
 titre = "Votre Révolution Socialiste"
 musique = ExtResource("1_fbur6")
 metadata/_custom_type_script = "uid://de6aut023am28"

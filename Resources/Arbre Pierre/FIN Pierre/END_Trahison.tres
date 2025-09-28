@@ -1,11 +1,14 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://bwv1hvuab3cjv"]
+[gd_resource type="Resource" script_class="Fin" load_steps=4 format=3 uid="uid://bwv1hvuab3cjv"]
 
 [ext_resource type="AudioStream" uid="uid://c6wn0o8xeqjjt" path="res://Audio/ogg/MUS_End_Neutral_Looped.ogg" id="1_dm0ad"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_msdx4"]
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_rjem8"]
 
 [resource]
 script = ExtResource("1_msdx4")
+history_book = "La révolution de février 1848 entraîne la proclamation de la IIe République et l'instauration du suffrage universel masculin. Les libertés publiques progressent et l'esclavage est définitivement aboli. Cependant, le rejet des revendications ouvrières, le conflit politique entre républicains et conservateurs et la méfiance des campagnes envers les villes conduisent à l'ascension de Louis‑Napoléon Bonaparte. (source: lelivrescolaire.fr)"
 enonce = "Vous avez passé votre vie dans la rue, sur les barricades, à défendre la Révolution. Mais dès votre élection, quelque chose a changé dans vos opinions. Vous avez changé de bord politique si soudainement que tous vos partisans se demandent quelle mouche vous a piqué. Le peuple gronde suite à vos trahisons! Ces mêmes barricades qui vous ont vu grandir se dressent désormais contre vous, qui les réprimez. Un an plus tard, le parti de Thiers remporte les élections grâce au chemin que vous lui avez créé."
+decors = ExtResource("1_rjem8")
 titre = "Le trtaître du peuple"
 musique = ExtResource("1_dm0ad")
 metadata/_custom_type_script = "uid://de6aut023am28"
