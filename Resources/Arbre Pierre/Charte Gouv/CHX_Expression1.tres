@@ -5,7 +5,7 @@
 [ext_resource type="Resource" uid="uid://cpfpo5kl1ldp3" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_censure.tres" id="2_ysgfy"]
 [ext_resource type="Resource" uid="uid://bllhmj0dc56lo" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_encadre.tres" id="3_lc7ar"]
 [ext_resource type="Resource" uid="uid://drj131f1kgtkl" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_liberte.tres" id="4_yvra5"]
-[ext_resource type="Texture2D" uid="uid://x1bpap2odvus" path="res://Art/Event_1.png" id="5_hiswn"]
+[ext_resource type="Texture2D" uid="uid://bctxnlaltnemd" path="res://Art/Asset_la_liberté.png" id="5_hiswn"]
 
 [resource]
 script = ExtResource("2_547mb")
