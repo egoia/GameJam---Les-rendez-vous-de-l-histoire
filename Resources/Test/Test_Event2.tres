@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_4mdim"]
 [ext_resource type="Texture2D" uid="uid://b2psqqvymu8il" path="res://Art/Décor bureau3.png" id="1_pnhai"]
-[ext_resource type="Resource" uid="uid://dbp5p3ycnpbwi" path="res://Resources/test_fin.tres" id="2_am1cs"]
+[ext_resource type="Resource" uid="uid://dbp5p3ycnpbwi" path="res://Resources/Test/test_fin.tres" id="2_am1cs"]
 
 [resource]
 script = ExtResource("1_4mdim")

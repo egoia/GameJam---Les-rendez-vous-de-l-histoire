@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://c5q0ingmit2a8"]
+[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://c5q0ingmit2a8"]
 
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_xka61"]
+[ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_ykt5g"]
 
 [resource]
 script = ExtResource("1_xka61")
 enonce = "Vous vous êtes fermement opposé au changement, que ce soit l’annulation d’un banquet à la dernière minute ou bien les tentatives des révolutionnaires de renverser l’ordre établi. La royauté reste au pouvoir, et pourvu qu’il en reste ainsi!"
 titre = "Le Royaliste"
+musique = ExtResource("1_ykt5g")
 metadata/_custom_type_script = "uid://de6aut023am28"

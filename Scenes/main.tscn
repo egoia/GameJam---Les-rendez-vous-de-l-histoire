@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://cfq3xe8g3yvtl"]
 
 [ext_resource type="Script" uid="uid://c7lln0aapfiam" path="res://Script/GameManager.gd" id="1_jjgbg"]
-[ext_resource type="Resource" uid="uid://cug1uqvog2wda" path="res://Resources/Test_Story.tres" id="2_344ge"]
+[ext_resource type="Resource" uid="uid://cug1uqvog2wda" path="res://Resources/InitPoint.tres" id="2_344ge"]
 [ext_resource type="Texture2D" uid="uid://rq53vi4716a1" path="res://icon.svg" id="3_jjvhh"]
 [ext_resource type="Script" uid="uid://cid27pdm4ftu2" path="res://Script/ChoixNode.gd" id="4_344ge"]
 [ext_resource type="Script" uid="uid://c0tsnwvmibpvm" path="res://Script/2_buttons.gd" id="5_ynf5e"]
@@ -28,7 +28,6 @@ texture = ExtResource("3_jjvhh")
 script = ExtResource("4_344ge")
 
 [node name="Ilustration" type="TextureRect" parent="Canvas/Choix"]
-visible = false
 offset_left = 753.0
 offset_top = 332.0
 offset_right = 1174.0
@@ -37,7 +36,6 @@ texture = ExtResource("3_jjvhh")
 stretch_mode = 4
 
 [node name="Enonce" type="Label" parent="Canvas/Choix"]
-visible = false
 offset_left = 504.0
 offset_top = 179.0
 offset_right = 1335.0
@@ -67,6 +65,7 @@ offset_top = 636.0
 offset_right = 1177.0
 offset_bottom = 691.0
 text = "Sample Text"
+autowrap_mode = 3
 game_manager = NodePath("../../../..")
 
 [node name="3Buttons" type="Node" parent="Canvas/Choix"]
@@ -79,6 +78,7 @@ offset_top = 634.0
 offset_right = 1018.0
 offset_bottom = 689.0
 text = "Sample Text"
+autowrap_mode = 3
 game_manager = NodePath("../../../..")
 
 [node name="Custom_button4" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
@@ -88,6 +88,7 @@ offset_top = 635.0
 offset_right = 805.0
 offset_bottom = 686.0
 text = "Sample text"
+autowrap_mode = 3
 game_manager = NodePath("../../../..")
 
 [node name="Custom_button5" parent="Canvas/Choix/3Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]
@@ -97,6 +98,7 @@ offset_top = 636.0
 offset_right = 1234.0
 offset_bottom = 687.0
 text = "Sample Text"
+autowrap_mode = 3
 game_manager = NodePath("../../../..")
 
 [node name="Concequence" type="Node" parent="Canvas"]
@@ -131,11 +133,13 @@ offset_top = 635.0
 offset_right = 970.0
 offset_bottom = 692.0
 text = "Suivant"
+autowrap_mode = 3
 
 [node name="Fin" type="Node" parent="Canvas"]
 script = ExtResource("9_ynf5e")
 
 [node name="ResumePartie" type="Label" parent="Canvas/Fin"]
+visible = false
 offset_left = 1083.0
 offset_top = 248.0
 offset_right = 1453.0
@@ -146,6 +150,7 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="LivreHistoire" type="Label" parent="Canvas/Fin"]
+visible = false
 offset_left = 504.0
 offset_top = 248.0
 offset_right = 874.0
@@ -162,6 +167,7 @@ offset_top = 487.0
 offset_right = 1045.0
 offset_bottom = 539.0
 text = "Sample text"
+autowrap_mode = 3
 
 [node name="ZoomLivre" type="Button" parent="Canvas/Fin"]
 visible = false

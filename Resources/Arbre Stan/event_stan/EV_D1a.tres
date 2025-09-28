@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bv6lny31de0xf"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://bv6lny31de0xf"]
 
 [ext_resource type="Resource" uid="uid://cka376in05w3l" path="res://Resources/Arbre Stan/event_stan/EV_D1b.tres" id="1_dg040"]
+[ext_resource type="AudioStream" uid="uid://mptlltkgw8ws" path="res://Audio/ogg/MUS_Jeu_Royal_Looped.ogg" id="1_sqovr"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_u1vrg"]
 
 [resource]
 script = ExtResource("1_u1vrg")
 enonce = "Le nouveau roi Philippe VII forme un nouveau gouvernement, après avoir également mis Guizot de côté."
 titre = "La Monarchie de Juillet se maintient"
+musique = ExtResource("1_sqovr")
 next = ExtResource("1_dg040")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

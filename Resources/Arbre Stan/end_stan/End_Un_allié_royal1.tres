@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://d3hhcp822bgq6"]
+[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://d3hhcp822bgq6"]
 
+[ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_2t7jy"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_sh1bi"]
 
 [resource]
 script = ExtResource("1_sh1bi")
 enonce = "Vous avez trahi vos convictions et approuvé la charte. La monarchie reste fermement en place grâce à votre soutien, et vous avez une place confortable parmi les hauts placés. Vous avez sûrement de belles années aux gouvernement devant vous! Mais à quel prix?"
 titre = "Un allié royal"
+musique = ExtResource("1_2t7jy")
 metadata/_custom_type_script = "uid://de6aut023am28"

@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://dgkkpd7g1ek0p"]
+[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://dgkkpd7g1ek0p"]
 
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_guf13"]
+[ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_mt7y1"]
 
 [resource]
 script = ExtResource("1_guf13")
 enonce = "La charte du roi était principalement en ligne avec vos opinions! Mais quelle qu'en soit la raison, vous l’avez refusée. Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
 titre = "Déçu par la couronne"
+musique = ExtResource("1_mt7y1")
 metadata/_custom_type_script = "uid://de6aut023am28"
