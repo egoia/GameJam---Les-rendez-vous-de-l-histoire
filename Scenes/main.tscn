@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dfcnh23j61y6d" path="res://Scenes/button.tscn" id="6_6bp64"]
 [ext_resource type="Script" uid="uid://tgocb5ted41d" path="res://Script/3_buttons.gd" id="7_hptm8"]
 [ext_resource type="Script" uid="uid://ql46mfkuuu7u" path="res://Script/concequence.gd" id="8_d1ilt"]
-[ext_resource type="Script" path="res://Script/fin_node.gd" id="9_ynf5e"]
+[ext_resource type="Script" uid="uid://bwyql3nec208p" path="res://Script/fin_node.gd" id="9_ynf5e"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_21xkr"]
 
@@ -57,6 +57,7 @@ offset_top = 636.0
 offset_right = 852.0
 offset_bottom = 686.0
 text = "Sample Text"
+autowrap_mode = 3
 game_manager = NodePath("../../../..")
 
 [node name="CustomButton2" parent="Canvas/Choix/2Buttons" node_paths=PackedStringArray("game_manager") instance=ExtResource("6_6bp64")]

@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cu8foegbxqf2l" path="res://Art/Menu principal4.png" id="1_m6uer"]
 [ext_resource type="Texture2D" uid="uid://xkv73oi8fyia" path="res://Art/Bouton1.png" id="2_a43kq"]
-[ext_resource type="Script" path="res://Script/button_jouer.gd" id="2_jgtwh"]
+[ext_resource type="Script" uid="uid://bu67teobt8rfg" path="res://Script/button_jouer.gd" id="2_jgtwh"]
 [ext_resource type="Texture2D" uid="uid://w736qbi4avi0" path="res://Art/Bouton3.png" id="4_a43kq"]
 [ext_resource type="Texture2D" uid="uid://dl7fr8gqfyk0o" path="res://Art/Bouton2.png" id="4_i2i62"]
 [ext_resource type="Script" uid="uid://cri1tsgmxr8xh" path="res://Script/button_credits.gd" id="5_8u0lp"]
@@ -30,10 +30,11 @@ script = ExtResource("2_jgtwh")
 duration = 0.5
 
 [node name="Button_Credits" type="Button" parent="CanvasLayer"]
-offset_left = 678.0
-offset_top = 560.0
-offset_right = 1263.0
-offset_bottom = 767.0
+offset_left = 665.0
+offset_top = 546.0
+offset_right = 1261.0
+offset_bottom = 798.0
+focus_mode = 0
 icon = ExtResource("4_i2i62")
 flat = true
 icon_alignment = 1
@@ -45,6 +46,7 @@ offset_left = 662.0
 offset_top = 830.0
 offset_right = 1284.0
 offset_bottom = 1044.0
+focus_mode = 0
 icon = ExtResource("4_a43kq")
 flat = true
 expand_icon = true
