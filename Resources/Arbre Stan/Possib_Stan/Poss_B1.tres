@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_x720r")
 next = ExtResource("1_xlm3p")
-text = "La foule est en colère, et moi aussi!"
+text = "La foule est en colère, et moi aussi !"
 value = 1
 jauge = 2
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

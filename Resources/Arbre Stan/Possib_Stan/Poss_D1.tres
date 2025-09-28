@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_50jwk")
 next = ExtResource("1_gdjew")
-text = "Il a tout mon soutien ! Il ne peut pas être pire que son père, si ?"
+text = "Il a tout mon soutien ! Il ne peut pas être pire que son grand-père, si ?"
 value = 1
 jauge = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

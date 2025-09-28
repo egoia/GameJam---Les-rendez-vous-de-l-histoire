@@ -254,10 +254,10 @@ script = ExtResource("9_ynf5e")
 
 [node name="ResumePartie" type="Label" parent="Canvas/Fin"]
 visible = false
-offset_left = 980.0
-offset_top = 222.0
-offset_right = 1260.0
-offset_bottom = 908.0
+offset_left = 988.0
+offset_top = 249.0
+offset_right = 1268.0
+offset_bottom = 858.0
 theme_override_colors/font_color = Color(0.36078432, 0.23529412, 0.15686275, 1)
 theme_override_fonts/font = ExtResource("7_fdnlq")
 text = "LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG LOREM IPSUM ABCDEFG "

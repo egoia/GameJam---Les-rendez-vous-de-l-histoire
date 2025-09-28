@@ -6,5 +6,5 @@
 [resource]
 script = ExtResource("1_4owen")
 next = ExtResource("1_5hier")
-text = "Cette Monarchie ne changera rien de significatif … Je quitte le gouvernement."
+text = "Cette Monarchie ne changera rien de significatif… Je quitte le gouvernement."
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

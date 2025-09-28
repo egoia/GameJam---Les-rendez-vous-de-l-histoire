@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_lmi6j")
 next = ExtResource("1_qedu1")
-text = "Et puis quoi encore? L’heure est à la République !"
+text = "Et puis quoi encore ? L’heure est à la République !"
 value = 1
 jauge = 2
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

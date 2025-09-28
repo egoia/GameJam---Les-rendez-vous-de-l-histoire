@@ -6,6 +6,6 @@
 [resource]
 script = ExtResource("1_hi1ae")
 next = ExtResource("1_76471")
-text = "Peu importe, on maintient ce banquet!"
+text = "Peu importe, on maintient ce banquet !"
 value = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"
