@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://r7emlb5d8hjb"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://r7emlb5d8hjb"]
 
+[ext_resource type="Texture2D" uid="uid://djak2rswdfrrg" path="res://Art/Asset_vote.png" id="1_5fftx"]
 [ext_resource type="Resource" uid="uid://bdoxbspldo73x" path="res://Resources/Arbre Pierre/CHOIX Pierre/CHX_I.tres" id="1_av755"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_5fftx"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("2_5fftx")
 enonce = "Thiers et son bloc modéré remporte haut la main les élections avec une écrasante majorité. Votre position réformiste ne vous rapporte que quelques sièges."
 titre = "Votre bloc perd les élections..."
+illustration = ExtResource("1_5fftx")
 next = ExtResource("1_av755")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

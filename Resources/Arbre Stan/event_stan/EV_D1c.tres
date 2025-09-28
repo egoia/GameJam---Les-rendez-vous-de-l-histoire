@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bykd4b0sabisq"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://bykd4b0sabisq"]
 
+[ext_resource type="Texture2D" uid="uid://qsv53drhesv0" path="res://Art/Asset_charte.png" id="1_421jq"]
 [ext_resource type="Resource" uid="uid://v370s03qwg" path="res://Resources/Arbre Stan/choix_stan/CHX_F.tres" id="1_fiptt"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_j1dib"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("1_j1dib")
 enonce = "Vos propositions ont bien été reçu par le roi. Hate de voir à quoi va ressembler ce nouveau gouvernement royaliste!"
 titre = "Propositions faites au roi"
+illustration = ExtResource("1_421jq")
 next = ExtResource("1_fiptt")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

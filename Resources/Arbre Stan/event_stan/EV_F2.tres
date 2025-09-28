@@ -1,5 +1,6 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://utxybipjyl67"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://utxybipjyl67"]
 
+[ext_resource type="Texture2D" uid="uid://qsv53drhesv0" path="res://Art/Asset_charte.png" id="1_au3t7"]
 [ext_resource type="Resource" uid="uid://c6iws322726jy" path="res://Resources/Arbre Stan/fork_stan/Fork_ProRoi2.tres" id="1_bgmh3"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="1_qn4go"]
 
@@ -7,5 +8,6 @@
 script = ExtResource("1_qn4go")
 enonce = "Il semblerait que le Roi n’avait jamais prévu de vous écouter en premier lieu. Ainsi, il adopte la Charte en dépit des avis de son peuple."
 titre = "Le Roi adopte la Charte sans écouter l’avis du peuple"
+illustration = ExtResource("1_au3t7")
 next = ExtResource("1_bgmh3")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://beh3uet3ewq74"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://beh3uet3ewq74"]
 
 [ext_resource type="Resource" uid="uid://y4xe516rjwc1" path="res://Resources/Arbre Pierre/FIN Pierre/END_LutteVSGouv.tres" id="1_a0mgl"]
+[ext_resource type="Texture2D" uid="uid://b8oweax48s20y" path="res://Art/Event_3_GN.png" id="1_rtqbw"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_rtqbw"]
 
 [resource]
 script = ExtResource("2_rtqbw")
 enonce = "Les ouvriers de Paris entraînent avec eux le peuple. C’est la France qui se réveille et qui monte les barricades ! L’élan ne dure que 3 jours… 4 000 morts parmi vos camarades et le gouvernement poursuit ses réformes. Vous êtes arrêté pour avoir instiguer la révolte."
 titre = "Le peuple massacré !"
+illustration = ExtResource("1_rtqbw")
 next = ExtResource("1_a0mgl")
 metadata/_custom_type_script = "uid://drfymq27kucy2"

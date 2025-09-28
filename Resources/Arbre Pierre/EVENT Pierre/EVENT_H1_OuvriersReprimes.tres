@@ -1,11 +1,13 @@
-[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://b700mf22w153f"]
+[gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://b700mf22w153f"]
 
 [ext_resource type="Resource" uid="uid://d2mihu4necjf2" path="res://Resources/Arbre Pierre/FIN Pierre/END_OuvriersReprimes.tres" id="1_f5cow"]
+[ext_resource type="Texture2D" uid="uid://bs3p1kjj71g2g" path="res://Art/Asset_fermeture_ateliers.png" id="1_smra6"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_smra6"]
 
 [resource]
 script = ExtResource("2_smra6")
 enonce = "Le peuple de Paris ne comprend qu’une chose, la violence. L’armée a la main lourde mais c’est le prix à payer pour l’ordre et le progrès. Des milliers d’émeutiers sont morts, ce qui ne vous arrêtera pas dans votre marche vers les réformes dont le pays a besoin."
 titre = "Répression ferme"
+illustration = ExtResource("1_smra6")
 next = ExtResource("1_f5cow")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
