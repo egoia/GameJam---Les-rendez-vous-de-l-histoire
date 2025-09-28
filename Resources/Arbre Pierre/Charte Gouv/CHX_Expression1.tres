@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://doyk5avpnhxeg"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_33co6"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_547mb"]
+[ext_resource type="Resource" uid="uid://cpfpo5kl1ldp3" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_censure.tres" id="2_ysgfy"]
+[ext_resource type="Resource" uid="uid://bllhmj0dc56lo" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_encadre.tres" id="3_lc7ar"]
+[ext_resource type="Resource" uid="uid://drj131f1kgtkl" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Expression1_liberte.tres" id="4_yvra5"]
+[ext_resource type="Texture2D" uid="uid://cfuldcjjk8crr" path="res://Art/Event_1.png" id="5_hiswn"]
+
+[resource]
+script = ExtResource("2_547mb")
+choix = Array[ExtResource("1_33co6")]([ExtResource("2_ysgfy"), ExtResource("3_lc7ar"), ExtResource("4_yvra5")])
+illustration = ExtResource("5_hiswn")
+enonce = "Quelle liberté accorder à l’expression des citoyens ?"
+titre = "Liberté d’expression"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

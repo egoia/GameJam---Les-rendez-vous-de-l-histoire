@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://c4xgro02qcy56"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_p44vt"]
+[ext_resource type="Resource" uid="uid://c7rjwoh7ar64k" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Etat1_LF.tres" id="2_j763p"]
+[ext_resource type="Resource" uid="uid://dcjwbxhei3a44" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Etat1_Neutre.tres" id="3_0xy0s"]
+[ext_resource type="Resource" uid="uid://b66342q60web0" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Etat1_Interv.tres" id="4_8jddj"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="5_2pc0d"]
+[ext_resource type="Texture2D" uid="uid://b8rnodjy6wl6i" path="res://Art/Asset_couronne.png" id="5_p3cie"]
+
+[resource]
+script = ExtResource("5_2pc0d")
+choix = Array[ExtResource("1_p44vt")]([ExtResource("2_j763p"), ExtResource("3_0xy0s"), ExtResource("4_8jddj")])
+illustration = ExtResource("5_p3cie")
+enonce = "Quelle position doit adopter l’État face aux questions économiques et sociales ?"
+titre = "Position de l’État"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

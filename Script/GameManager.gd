@@ -7,15 +7,28 @@ enum Jauge { REPRESSION, CONSERVTIVE, REVOLUTIONNARY}
 var repression_value : int = 0
 var conservative_value : int = 0
 var revolutionnary_value : int = 0
-const BUTTON = preload("uid://dfcnh23j61y6d")
+
+@onready var Fade: ColorRect = $"Canvas/BlackScreen"
+@export var duration : float = 1
 
 @onready var choixNode: Node = $Canvas/Choix
 @onready var consequenceNode: Node = $Canvas/Concequence
+@onready var fin_node: Node = $Canvas/Fin
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	
 	select_evenement()
+	await fadeIn()
+	Fade.visible = false
 
+func fadeIn():
+	var tween = create_tween()
+	tween.tween_property(Fade,"modulate",Color(0, 0, 0, 0), duration)
+	await tween.finished
+	
+
+	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
@@ -62,22 +75,30 @@ func fork():
 
 func load_consequence_UI(consequence : Evenement):
 	#transition consequence
-	backgroud.texture = consequence.decors
+	if consequence.musique !=null : 
+		Dj.play_song(consequence.musique)
+	if consequence.decors !=null : 
+		backgroud.texture = consequence.decors
 	consequenceNode.setUp(consequence)
 	
 	
 func load_choice_UI(choix : Choix):
 	#transition  prochain choix?
-	backgroud.texture = choix.decors
+	if choix.musique !=null : 
+		Dj.play_song(choix.musique)
+	if(choix.decors!=null):
+		backgroud.texture = choix.decors
 	
 	if choix.choix.size() == 3:
 		choixNode.setUp3Bts(choix)
 	else:
 		choixNode.setUp2Bts(choix)
 	
-	pass
-	
 func load_end_UI(end : Fin):
-	#
-	pass
+	if end.musique !=null : 
+		Dj.play_song(end.musique)
+	if(end.decors!=null):
+		backgroud.texture = end.decors
+	fin_node.setUp(end)
+	fin_node.show()
 	

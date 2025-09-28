@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://b3q76eud76o24"]
+
+[ext_resource type="Resource" uid="uid://bmk3u6h3k8aig" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_H2_OuvriersIgnores.tres" id="1_7onl6"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_t8eqw"]
+
+[resource]
+script = ExtResource("2_t8eqw")
+next = ExtResource("1_7onl6")
+text = "Ils ont déjà perdu, ils ne méritent même plus notre attention."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

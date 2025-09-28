@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://dbp5p3ycnpbwi"]
+
+[ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_af8na"]
+[ext_resource type="Texture2D" uid="uid://cuk6uqdv51vey" path="res://Art/Croquis_écran_fin.png" id="1_kr11m"]
+
+[resource]
+script = ExtResource("1_af8na")
+history_book = "l'histoire blah blah blah adolf tiers blabla les royaliste blah blah le nouvel empire jsplu et puis l'abolition de l'esclavage voila"
+enonce = "t'as bien joué bg le revolutionnaire"
+decors = ExtResource("1_kr11m")
+titre = "pinaise"
+metadata/_custom_type_script = "uid://de6aut023am28"

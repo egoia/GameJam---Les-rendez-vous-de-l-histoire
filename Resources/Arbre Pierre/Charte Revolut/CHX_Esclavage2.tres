@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://c6cd3jchbdc6o"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_ft1e7"]
+[ext_resource type="Resource" uid="uid://cqhm57dq4tox3" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Esclavage2_RienFaire.tres" id="2_7p0b1"]
+[ext_resource type="Resource" uid="uid://djysthj5xb6yv" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Esclavage2_Compenser.tres" id="3_j225f"]
+[ext_resource type="Resource" uid="uid://88sakn10tw0x" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Esclavage2_Liberte.tres" id="4_81xre"]
+[ext_resource type="Texture2D" uid="uid://bqqjc4hnt8br" path="res://Art/Asset_esclavagisme.png" id="5_7p0b1"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="5_wbqm8"]
+
+[resource]
+script = ExtResource("5_wbqm8")
+choix = Array[ExtResource("1_ft1e7")]([ExtResource("2_7p0b1"), ExtResource("3_j225f"), ExtResource("4_81xre")])
+illustration = ExtResource("5_7p0b1")
+enonce = "Que faire des 250 000 esclaves de nos colonies ?"
+titre = "Esclavage"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

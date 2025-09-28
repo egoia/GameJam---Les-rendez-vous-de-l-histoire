@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bovhdwa6pwuqy"]
+
+[ext_resource type="Resource" uid="uid://doyk5avpnhxeg" path="res://Resources/Arbre Pierre/Charte Gouv/CHX_Expression1.tres" id="1_6l5he"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_yu6kp"]
+
+[resource]
+script = ExtResource("2_yu6kp")
+enonce = "Maintenant que vous faites partie du gouvernement, il est temps de proposer des réformes. À vous de voir si vous allez apporter du changement !"
+titre = "Les honnêtes gens entrent au gouvernement provisoire !"
+next = ExtResource("1_6l5he")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

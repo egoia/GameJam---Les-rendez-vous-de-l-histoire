@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Fork" load_steps=4 format=3 uid="uid://bhr558wr6af55"]
+
+[ext_resource type="Resource" uid="uid://r7emlb5d8hjb" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_PerteElections.tres" id="1_61en8"]
+[ext_resource type="Script" uid="uid://cm6rmdmbmwm64" path="res://Script/StoryTree/Fork.gd" id="2_i43jm"]
+[ext_resource type="Resource" uid="uid://cxajnmpmqx82b" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_VictoireElections.tres" id="3_m34jc"]
+
+[resource]
+script = ExtResource("2_i43jm")
+seuil = 2
+jauge = 1
+true_next = ExtResource("3_m34jc")
+false_next = ExtResource("1_61en8")
+metadata/_custom_type_script = "uid://cm6rmdmbmwm64"

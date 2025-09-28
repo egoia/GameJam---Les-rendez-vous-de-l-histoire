@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://bh5nbdd5wqxl"]
+
+[ext_resource type="Resource" uid="uid://bovhdwa6pwuqy" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_E1_EntreeAuGouv.tres" id="1_w603d"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_t44pr"]
+
+[resource]
+script = ExtResource("2_t44pr")
+next = ExtResource("1_w603d")
+text = "Un siège m’attend au gouvernement !"
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

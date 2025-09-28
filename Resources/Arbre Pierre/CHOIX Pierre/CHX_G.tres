@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://8peavwt1a21u"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_kc6bd"]
+[ext_resource type="Resource" uid="uid://c53aiy0ajq1r6" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_G1.tres" id="2_c8wwe"]
+[ext_resource type="Resource" uid="uid://c3qc46vrpgjn" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_G2.tres" id="3_vkvx3"]
+[ext_resource type="Texture2D" uid="uid://qsv53drhesv0" path="res://Art/Asset_charte.png" id="4_c8wwe"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_p85hp"]
+
+[resource]
+script = ExtResource("4_p85hp")
+choix = Array[ExtResource("1_kc6bd")]([ExtResource("2_c8wwe"), ExtResource("3_vkvx3")])
+illustration = ExtResource("4_c8wwe")
+enonce = "La bourgeoisie a simplement pris le contrôle du gouvernement ! Elle veut nous imposer son ordre moral et sa vision économique sans s’inquiéter de l’avis du peuple."
+titre = "Une République bourgeoise !"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

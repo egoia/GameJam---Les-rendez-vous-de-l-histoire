@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=7 format=3 uid="uid://bmydrmv3psgnd"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_f6x0r"]
+[ext_resource type="Resource" uid="uid://d0us27wlqwi4t" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Suffrage1_censitaire.tres" id="2_bdh7x"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_c5y75"]
+[ext_resource type="Resource" uid="uid://cobqxjr0e28i6" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Suffrage1_UnivMasc.tres" id="3_q47pf"]
+[ext_resource type="Resource" uid="uid://isnt7p5t1s0w" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Suffrage1_Universel.tres" id="4_0kqwk"]
+[ext_resource type="Texture2D" uid="uid://by6nmgmi4cstk" path="res://Art/Asset_suffrage universel.png" id="5_qeb7f"]
+
+[resource]
+script = ExtResource("2_c5y75")
+choix = Array[ExtResource("1_f6x0r")]([ExtResource("2_bdh7x"), ExtResource("3_q47pf"), ExtResource("4_0kqwk")])
+illustration = ExtResource("5_qeb7f")
+enonce = "Qui doit avoir le droit de vote ?"
+titre = "Suffrage"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

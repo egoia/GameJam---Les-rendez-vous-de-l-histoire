@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://djysthj5xb6yv"]
+
+[ext_resource type="Resource" uid="uid://b4qevujw58jaf" path="res://Resources/Arbre Pierre/Charte Revolut/CHX_Suffrage2.tres" id="1_lftaj"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_n17vr"]
+
+[resource]
+script = ExtResource("2_n17vr")
+next = ExtResource("1_lftaj")
+text = "Libérons-les tous avec une  compensation pour les propriétaires qui s’en trouveront lésés."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

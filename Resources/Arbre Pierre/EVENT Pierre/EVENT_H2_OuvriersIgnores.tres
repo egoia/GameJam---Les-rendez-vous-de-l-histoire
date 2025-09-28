@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Evenement" load_steps=3 format=3 uid="uid://bmk3u6h3k8aig"]
+
+[ext_resource type="Resource" uid="uid://yw26xlvgdsdj" path="res://Resources/Arbre Pierre/FIN Pierre/END_OuvriersIgnores.tres" id="1_jeyj1"]
+[ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_eh61p"]
+
+[resource]
+script = ExtResource("2_eh61p")
+enonce = "Il a suffit de 3 jours pour mettre fin aux émeutes violentes. Malheureusement le calme est revenu au prix d’un millier de soldats tués. Quoi qu’il en soit, rien n’arrêtera maintenant les réformes de Thiers."
+titre = "Le peuple aboie mais les réformes passent"
+next = ExtResource("1_jeyj1")
+metadata/_custom_type_script = "uid://drfymq27kucy2"

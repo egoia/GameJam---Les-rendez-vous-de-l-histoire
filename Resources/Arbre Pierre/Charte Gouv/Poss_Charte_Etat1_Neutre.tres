@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://dcjwbxhei3a44"]
+
+[ext_resource type="Resource" uid="uid://134dq346b1t2" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_Elections.tres" id="1_vb5o0"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_umyus"]
+
+[resource]
+script = ExtResource("2_umyus")
+next = ExtResource("1_vb5o0")
+text = "L’État doit rester neutre face à ces questions."
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

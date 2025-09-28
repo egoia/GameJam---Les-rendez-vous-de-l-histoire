@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://c53aiy0ajq1r6"]
+
+[ext_resource type="Resource" uid="uid://t40q4g6ckx5j" path="res://Resources/Arbre Pierre/EVENT Pierre/EVENT_G1_ManifsRev.tres" id="1_jgg31"]
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="2_eqxt3"]
+
+[resource]
+script = ExtResource("2_eqxt3")
+next = ExtResource("1_jgg31")
+text = "Nous défendrons nos idées dans la rue. Retournons manifester !"
+metadata/_custom_type_script = "uid://cf0s2yehl3uog"

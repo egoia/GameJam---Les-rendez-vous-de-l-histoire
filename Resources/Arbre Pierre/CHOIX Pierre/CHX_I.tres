@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://bdoxbspldo73x"]
+
+[ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_4wnje"]
+[ext_resource type="Resource" uid="uid://ct5fji4ce6gpu" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_I1.tres" id="2_1n48p"]
+[ext_resource type="Resource" uid="uid://6b44gsqw2y1y" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_I2.tres" id="3_henog"]
+[ext_resource type="Texture2D" uid="uid://b4speasohubok" path="res://Art/Asset_fermeture_ateliers.png" id="4_1n48p"]
+[ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_v3i21"]
+
+[resource]
+script = ExtResource("4_v3i21")
+choix = Array[ExtResource("1_4wnje")]([ExtResource("2_1n48p"), ExtResource("3_henog")])
+illustration = ExtResource("4_1n48p")
+enonce = "Le gouvernement a osé fermer les ateliers nationaux ! Quelle sera votre réponse ?"
+titre = "Fermeture des ateliers nationaux"
+metadata/_custom_type_script = "uid://drvroan3bl8mt"

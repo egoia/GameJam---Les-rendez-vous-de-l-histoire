@@ -1,36 +1,68 @@
-[gd_scene load_steps=3 format=3 uid="uid://cs2sol80mp67a"]
+[gd_scene load_steps=8 format=3 uid="uid://cs2sol80mp67a"]
 
-[ext_resource type="Texture2D" uid="uid://co7r8sfhcg17c" path="res://Art/Menu principal2.png" id="1_juhg0"]
-[ext_resource type="Script" uid="uid://bu67teobt8rfg" path="res://Scenes/button_jouer.gd" id="2_jgtwh"]
+[ext_resource type="Texture2D" uid="uid://cu8foegbxqf2l" path="res://Art/Menu principal4.png" id="1_m6uer"]
+[ext_resource type="Texture2D" uid="uid://xkv73oi8fyia" path="res://Art/Bouton1.png" id="2_a43kq"]
+[ext_resource type="Script" path="res://Script/button_jouer.gd" id="2_jgtwh"]
+[ext_resource type="Texture2D" uid="uid://w736qbi4avi0" path="res://Art/Bouton3.png" id="4_a43kq"]
+[ext_resource type="Texture2D" uid="uid://dl7fr8gqfyk0o" path="res://Art/Bouton2.png" id="4_i2i62"]
+[ext_resource type="Script" uid="uid://cri1tsgmxr8xh" path="res://Script/button_credits.gd" id="5_8u0lp"]
+[ext_resource type="Script" uid="uid://wmd72w6h1kjo" path="res://Script/button_Exit.gd" id="6_i2i62"]
 
 [node name="Start_Menu" type="Node"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(954, 586)
-texture = ExtResource("1_juhg0")
+texture = ExtResource("1_m6uer")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Button_Jouer" type="Button" parent="CanvasLayer"]
-offset_left = 603.0
-offset_top = 288.0
-offset_right = 1303.0
-offset_bottom = 516.0
-text = "JOUER"
+offset_left = 670.0
+offset_top = 272.0
+offset_right = 1289.0
+offset_bottom = 496.0
+focus_mode = 0
+icon = ExtResource("2_a43kq")
+flat = true
+icon_alignment = 1
+expand_icon = true
 script = ExtResource("2_jgtwh")
+duration = 0.5
 
 [node name="Button_Credits" type="Button" parent="CanvasLayer"]
-offset_left = 610.0
-offset_top = 576.0
-offset_right = 1303.0
-offset_bottom = 790.0
-text = "CREDITS"
+offset_left = 678.0
+offset_top = 560.0
+offset_right = 1263.0
+offset_bottom = 767.0
+icon = ExtResource("4_i2i62")
+flat = true
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("5_8u0lp")
 
-[node name="Button" type="Button" parent="CanvasLayer"]
-offset_left = 604.0
-offset_top = 827.0
-offset_right = 1304.0
-offset_bottom = 1048.0
-text = "Quitter"
+[node name="Button_exit" type="Button" parent="CanvasLayer"]
+offset_left = 662.0
+offset_top = 830.0
+offset_right = 1284.0
+offset_bottom = 1044.0
+icon = ExtResource("4_a43kq")
+flat = true
+expand_icon = true
+script = ExtResource("6_i2i62")
 
+[node name="BlackScreen" type="ColorRect" parent="CanvasLayer"]
+visible = false
+modulate = Color(0, 0, 0, 0)
+self_modulate = Color(0, 0, 0, 1)
+offset_right = 1911.0
+offset_bottom = 1080.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="button_down" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_button_down"]
 [connection signal="button_up" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_button_up"]
+[connection signal="mouse_entered" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Button_Jouer" to="CanvasLayer/Button_Jouer" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Button_Credits" to="CanvasLayer/Button_Credits" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasLayer/Button_exit" to="CanvasLayer/Button_exit" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasLayer/Button_exit" to="CanvasLayer/Button_exit" method="_on_mouse_exited"]
