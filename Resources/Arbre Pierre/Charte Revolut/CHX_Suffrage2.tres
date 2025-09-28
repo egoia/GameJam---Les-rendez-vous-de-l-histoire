@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_88i6c"]
 [ext_resource type="Resource" uid="uid://dcg0haaw1bbd6" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Suffrage2_UnivMasc.tres" id="2_kbeqo"]
 [ext_resource type="Resource" uid="uid://btcauyuf43cds" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Suffrage2_Universel.tres" id="3_pks8e"]
-[ext_resource type="Texture2D" uid="uid://by6nmgmi4cstk" path="res://Art/Asset_suffrage universel.png" id="4_kbeqo"]
+[ext_resource type="Texture2D" uid="uid://davdti0et01vs" path="res://Art/Asset_suffrage universel.png" id="4_kbeqo"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_x7g3d"]
 
 [resource]

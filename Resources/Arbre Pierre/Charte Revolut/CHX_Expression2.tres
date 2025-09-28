@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://di3b0pswfyiwu" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Expression2_encadre.tres" id="2_ky5ej"]
 [ext_resource type="Resource" uid="uid://cw3hxdue3myou" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Expression2_liberte.tres" id="3_tf7o3"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_33x67"]
-[ext_resource type="Texture2D" uid="uid://cfuldcjjk8crr" path="res://Art/Event_1.png" id="4_ky5ej"]
+[ext_resource type="Texture2D" uid="uid://x1bpap2odvus" path="res://Art/Event_1.png" id="4_ky5ej"]
 
 [resource]
 script = ExtResource("4_33x67")

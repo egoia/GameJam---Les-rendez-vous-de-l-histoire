@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmd088jcv3313"]
+
+[ext_resource type="AudioStream" uid="uid://bvua557q285c7" path="res://Audio/SFX_UI_Menu_Click.ogg" id="1_sgcea"]
+
+[node name="SoundEffects" type="AudioStreamPlayer"]
+stream = ExtResource("1_sgcea")
+volume_db = -20.0

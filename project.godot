@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dj="*res://Scenes/dj.tscn"
+SoundEffects="*res://Scenes/sound_effects.tscn"
 
 [display]
 

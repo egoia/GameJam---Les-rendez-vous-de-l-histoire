@@ -27,4 +27,5 @@ func show() :
 	livre_histoire.visible = true
 	
 func go_to_menu():
+	SoundEffects.play()
 	root.get_tree().change_scene_to_file("res://Scenes/start_menu.tscn")

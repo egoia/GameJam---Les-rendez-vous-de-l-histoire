@@ -5,8 +5,8 @@
 [node name="DJ" type="Node2D"]
 script = ExtResource("1_jc6r7")
 fading_value = 60
-volume = -10
-start_volume = -65
+volume = -12
+start_volume = -71
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 

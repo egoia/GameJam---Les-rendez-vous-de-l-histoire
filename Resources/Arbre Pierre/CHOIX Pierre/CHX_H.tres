@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://cjoijv32mmvp4" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_H1.tres" id="2_uvbpp"]
 [ext_resource type="Resource" uid="uid://b3q76eud76o24" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_H2.tres" id="3_ybgb6"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_gk535"]
-[ext_resource type="Texture2D" uid="uid://b4speasohubok" path="res://Art/Asset_fermeture_ateliers.png" id="4_uvbpp"]
+[ext_resource type="Texture2D" uid="uid://bs3p1kjj71g2g" path="res://Art/Asset_fermeture_ateliers.png" id="4_uvbpp"]
 
 [resource]
 script = ExtResource("4_gk535")

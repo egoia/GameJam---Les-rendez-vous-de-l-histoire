@@ -169,11 +169,6 @@ offset_bottom = 539.0
 text = "Sample text"
 autowrap_mode = 3
 
-[node name="ZoomLivre" type="Button" parent="Canvas/Fin"]
-visible = false
-offset_right = 1920.0
-offset_bottom = 1080.0
-
 [node name="Reactions" type="Node" parent="Canvas"]
 
 [node name="TextureRect" type="TextureRect" parent="Canvas/Reactions"]
