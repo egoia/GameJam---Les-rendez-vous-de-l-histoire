@@ -176,6 +176,15 @@ icon_alignment = 1
 expand_icon = true
 game_manager = NodePath("../../../..")
 
+[node name="2Buttons" type="Node" parent="Canvas/Choix2D"]
+script = ExtResource("5_ynf5e")
+
+[node name="3Buttons" type="Node" parent="Canvas/Choix2D"]
+script = ExtResource("7_hptm8")
+
+[node name="Choix" type="Node" parent="Canvas"]
+script = ExtResource("4_344ge")
+
 [node name="Concequence" type="Node" parent="Canvas"]
 script = ExtResource("8_d1ilt")
 

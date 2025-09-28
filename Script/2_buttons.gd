@@ -1,4 +1,4 @@
-extends Node
+extends Node2D
 
 @onready var custom_button: Button = $CustomButton
 @onready var custom_button_2: Button = $CustomButton2
