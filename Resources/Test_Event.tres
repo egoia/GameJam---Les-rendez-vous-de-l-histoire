@@ -8,5 +8,6 @@
 script = ExtResource("1_nqq0a")
 enonce = "C'est la Fiiin"
 decors = ExtResource("1_8mjry")
+titre = "CECI N\"EST PAS UN TITRE"
 next = ExtResource("2_odmyv")
 metadata/_custom_type_script = "uid://drfymq27kucy2"
