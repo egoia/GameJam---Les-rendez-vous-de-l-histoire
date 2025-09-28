@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://cii4bxiyfpvsp"]
 
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_jr3vp"]
-[ext_resource type="Resource" uid="uid://cm1fn0s1wkjhu" path="res://Resources/Test_Choix3.tres" id="1_msiau"]
+[ext_resource type="Resource" uid="uid://dbp5p3ycnpbwi" path="res://Resources/test_fin.tres" id="1_msiau"]
 
 [resource]
 script = ExtResource("1_jr3vp")
