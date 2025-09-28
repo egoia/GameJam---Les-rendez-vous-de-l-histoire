@@ -9,6 +9,7 @@ const MUS_MENU_LOOPED = preload("uid://c7bh60hvx3owo")
 
 
 func _on_button_up() -> void:
+	SoundEffects.play()
 	Fade.visible = true
 	await FadeOut()
 	root.get_tree().change_scene_to_file("res://Scenes/credits.tscn")

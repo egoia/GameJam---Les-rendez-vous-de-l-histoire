@@ -47,6 +47,8 @@ func select_choice(choicePossibility : ChoicePossibility):
 	manage()
 	
 func select_evenement():
+	if (current_node is Evenement):
+		SoundEffects.play()
 	current_node = current_node.next
 	consequenceNode.hide()
 	manage()

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_4wnje"]
 [ext_resource type="Resource" uid="uid://ct5fji4ce6gpu" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_I1.tres" id="2_1n48p"]
 [ext_resource type="Resource" uid="uid://6b44gsqw2y1y" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_I2.tres" id="3_henog"]
-[ext_resource type="Texture2D" uid="uid://b4speasohubok" path="res://Art/Asset_fermeture_ateliers.png" id="4_1n48p"]
+[ext_resource type="Texture2D" uid="uid://bs3p1kjj71g2g" path="res://Art/Asset_fermeture_ateliers.png" id="4_1n48p"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_v3i21"]
 
 [resource]

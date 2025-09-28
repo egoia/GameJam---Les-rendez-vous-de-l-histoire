@@ -14,6 +14,7 @@ func setUp():
 
 
 func _on_button_up() -> void:
+	SoundEffects.play()
 	get_parent().Hide()
 	
 	var tween = create_tween()

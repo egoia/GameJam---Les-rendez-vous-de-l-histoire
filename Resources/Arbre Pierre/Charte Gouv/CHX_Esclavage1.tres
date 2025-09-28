@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="2_x514p"]
 [ext_resource type="Resource" uid="uid://bc0i4qeweyyuh" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Esclavage1_Compenser.tres" id="3_oxcc1"]
 [ext_resource type="Resource" uid="uid://b1ur74ssxvso7" path="res://Resources/Arbre Pierre/Charte Gouv/Poss_Charte_Esclavage1_Liberte.tres" id="4_13gy7"]
-[ext_resource type="Texture2D" uid="uid://bqqjc4hnt8br" path="res://Art/Asset_esclavagisme.png" id="5_bufty"]
+[ext_resource type="Texture2D" uid="uid://cc7kb1m4yqay5" path="res://Art/Asset_esclavagisme.png" id="5_bufty"]
 
 [resource]
 script = ExtResource("2_x514p")
