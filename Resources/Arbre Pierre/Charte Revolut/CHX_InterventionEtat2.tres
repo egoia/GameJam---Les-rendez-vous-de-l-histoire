@@ -1,13 +1,15 @@
-[gd_resource type="Resource" script_class="Choix" load_steps=5 format=3 uid="uid://bytek6g3sl6s"]
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://bytek6g3sl6s"]
 
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_0ny4u"]
 [ext_resource type="Resource" uid="uid://bel7yyppqqptt" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Etat2_Neutre.tres" id="2_u331k"]
 [ext_resource type="Resource" uid="uid://cpu3iyed44jgm" path="res://Resources/Arbre Pierre/Charte Revolut/Poss_Charte_Etat2_Interv.tres" id="3_jed7h"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_ce7lh"]
+[ext_resource type="Texture2D" uid="uid://b8rnodjy6wl6i" path="res://Art/Asset_couronne.png" id="4_u331k"]
 
 [resource]
 script = ExtResource("4_ce7lh")
 choix = Array[ExtResource("1_0ny4u")]([ExtResource("2_u331k"), ExtResource("3_jed7h")])
+illustration = ExtResource("4_u331k")
 enonce = "Quelle position doit adopter l’État face aux questions économiques et sociales ?"
 titre = "Position de l’État"
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

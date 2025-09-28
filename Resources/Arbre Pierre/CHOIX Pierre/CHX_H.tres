@@ -1,13 +1,15 @@
-[gd_resource type="Resource" script_class="Choix" load_steps=5 format=3 uid="uid://byu4aibvnxhdp"]
+[gd_resource type="Resource" script_class="Choix" load_steps=6 format=3 uid="uid://byu4aibvnxhdp"]
 
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_e05rj"]
 [ext_resource type="Resource" uid="uid://cjoijv32mmvp4" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_H1.tres" id="2_uvbpp"]
 [ext_resource type="Resource" uid="uid://b3q76eud76o24" path="res://Resources/Arbre Pierre/PROPOSITIONS Pierre/POSS_H2.tres" id="3_ybgb6"]
 [ext_resource type="Script" uid="uid://drvroan3bl8mt" path="res://Script/StoryTree/Choix.gd" id="4_gk535"]
+[ext_resource type="Texture2D" uid="uid://b4speasohubok" path="res://Art/Asset_fermeture_ateliers.png" id="4_uvbpp"]
 
 [resource]
 script = ExtResource("4_gk535")
 choix = Array[ExtResource("1_e05rj")]([ExtResource("2_uvbpp"), ExtResource("3_ybgb6")])
+illustration = ExtResource("4_uvbpp")
 enonce = "Les révolutionnaires militent suite à la fermeture des ateliers nationaux ! Quelle est votre approche ?"
 titre = "Fermeture des ateliers nationaux"
 metadata/_custom_type_script = "uid://drvroan3bl8mt"
