@@ -1,9 +1,11 @@
-[gd_resource type="Resource" script_class="Fin" load_steps=2 format=3 uid="uid://c2xtai7cdkood"]
+[gd_resource type="Resource" script_class="Fin" load_steps=3 format=3 uid="uid://c2xtai7cdkood"]
 
+[ext_resource type="AudioStream" uid="uid://c28h272qego5h" path="res://Audio/ogg/MUS_End_Royal_Looped.ogg" id="1_iocm6"]
 [ext_resource type="Script" uid="uid://de6aut023am28" path="res://Script/StoryTree/Fin.gd" id="1_p0gbe"]
 
 [resource]
 script = ExtResource("1_p0gbe")
 enonce = "La monarchie vous a déçu une fois de plus, et vous avez préféré vous retirer. Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
 titre = "Déçu par la couronne"
+musique = ExtResource("1_iocm6")
 metadata/_custom_type_script = "uid://de6aut023am28"

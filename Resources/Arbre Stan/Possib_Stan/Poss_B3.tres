@@ -6,7 +6,7 @@
 [resource]
 script = ExtResource("1_fxuev")
 next = ExtResource("1_c3k4u")
-text = "Peu importe, on maintient ce banquet!"
+text = "Montrons patte blanche, on annule ce banquet"
 value = 1
 jauge = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

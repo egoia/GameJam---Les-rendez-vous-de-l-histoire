@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="ChoicePossibility" load_steps=3 format=3 uid="uid://e24nm6sv4hmy"]
 
-[ext_resource type="Resource" uid="uid://cm1fn0s1wkjhu" path="res://Resources/Test_Choix3.tres" id="1_db6gx"]
+[ext_resource type="Resource" uid="uid://cm1fn0s1wkjhu" path="res://Resources/Test/Test_Choix3.tres" id="1_db6gx"]
 [ext_resource type="Script" uid="uid://cf0s2yehl3uog" path="res://Script/StoryTree/ChoicePossibility.gd" id="1_pgknd"]
 
 [resource]

@@ -1,14 +1,16 @@
-[gd_scene load_steps=8 format=3 uid="uid://cs2sol80mp67a"]
+[gd_scene load_steps=9 format=3 uid="uid://cs2sol80mp67a"]
 
+[ext_resource type="Script" uid="uid://dydh7ueyjnbly" path="res://Scenes/start_menu.gd" id="1_lfskg"]
 [ext_resource type="Texture2D" uid="uid://cu8foegbxqf2l" path="res://Art/Menu principal4.png" id="1_m6uer"]
 [ext_resource type="Texture2D" uid="uid://xkv73oi8fyia" path="res://Art/Bouton1.png" id="2_a43kq"]
-[ext_resource type="Script" path="res://Script/button_jouer.gd" id="2_jgtwh"]
+[ext_resource type="Script" uid="uid://bu67teobt8rfg" path="res://Script/button_jouer.gd" id="2_jgtwh"]
 [ext_resource type="Texture2D" uid="uid://w736qbi4avi0" path="res://Art/Bouton3.png" id="4_a43kq"]
 [ext_resource type="Texture2D" uid="uid://dl7fr8gqfyk0o" path="res://Art/Bouton2.png" id="4_i2i62"]
 [ext_resource type="Script" uid="uid://cri1tsgmxr8xh" path="res://Script/button_credits.gd" id="5_8u0lp"]
 [ext_resource type="Script" uid="uid://wmd72w6h1kjo" path="res://Script/button_Exit.gd" id="6_i2i62"]
 
 [node name="Start_Menu" type="Node"]
+script = ExtResource("1_lfskg")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(954, 586)

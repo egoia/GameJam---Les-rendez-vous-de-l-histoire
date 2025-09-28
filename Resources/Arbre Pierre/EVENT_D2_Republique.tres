@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Evenement" load_steps=4 format=3 uid="uid://4bpw2myttbbt"]
 
-[ext_resource type="Texture2D" uid="uid://cgwfkeo0hs8c7" path="res://Art/Event_4_2èmeRep.png" id="1_a841d"]
+[ext_resource type="Texture2D" uid="uid://3jb77844ivd7" path="res://Art/Event_4_2èmeRep.png" id="1_a841d"]
 [ext_resource type="Resource" uid="uid://ppl05v02jwfp" path="res://Resources/Arbre Pierre/CHOIX Pierre/CHX_E.tres" id="1_xv1r1"]
 [ext_resource type="Script" uid="uid://drfymq27kucy2" path="res://Script/StoryTree/Evenement.gd" id="2_a841d"]
 
