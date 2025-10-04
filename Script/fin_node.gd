@@ -3,6 +3,8 @@ extends Node
 @onready var resume_partie: Label = $ResumePartie
 @onready var button: Button = $Button
 @onready var root: GameManager = $"../.."
+@onready var title: Label = $Title
+@onready var title_static: Label = $TitleStatic
 
 
 
@@ -12,6 +14,7 @@ func _ready() -> void:
 func setUp(fin : Fin):
 	resume_partie.text = fin.enonce
 	livre_histoire.text = fin.history_book
+	title.text = fin.titre
 	show()
 
 func hide():
@@ -19,12 +22,16 @@ func hide():
 	button.disabled = true
 	resume_partie.visible = false
 	livre_histoire.visible = false
+	title.visible = false
+	title_static.visible = false
 	
 func show() : 
 	button.visible = true
 	button.disabled = false
 	resume_partie.visible = true
 	livre_histoire.visible = true
+	title.visible = true
+	title_static.visible = true
 	
 func go_to_menu():
 	SoundEffects.play()

@@ -10,3 +10,7 @@ func _on_button_up() -> void:
 func _on_button_down() -> void:
 	var tween = create_tween()
 	tween.tween_property(self,"modulate",Color(0.651, 0.651, 0.651, 1.0), 0.08)
+
+
+func _on_button_button_up() -> void:
+	pass # Replace with function body.

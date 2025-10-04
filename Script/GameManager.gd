@@ -11,7 +11,7 @@ var revolutionnary_value : int = 0
 @onready var Fade: ColorRect = $"Canvas/BlackScreen"
 @export var duration : float = 1
 
-@onready var choixNode: Node = $Canvas/Choix
+@onready var choixNode: Node2D = $Canvas/Choix2D
 @onready var consequenceNode: Node = $Canvas/Concequence
 @onready var fin_node: Node = $Canvas/Fin
 
@@ -32,12 +32,16 @@ func fadeIn():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	
 	#Testing Animations
 	if Input.is_action_pressed("Test"):
+		#await choixNode.hideChoixUI()
+		#await showChoixUI()
 		pass
+	
 
 func select_choice(choicePossibility : ChoicePossibility):
-	choixNode.hide()
+	choixNode.choixHide()
 	match choicePossibility.jauge:
 		Jauge.REPRESSION : 
 			repression_value+= choicePossibility.value
@@ -98,7 +102,11 @@ func load_choice_UI(choix : Choix):
 		choixNode.setUp3Bts(choix)
 	else:
 		choixNode.setUp2Bts(choix)
-	choixNode.show()
+	choixNode.choixShow()
+	await choixNode.showChoixUI()
+	
+	
+	
 	
 func load_end_UI(end : Fin):
 	if end.musique !=null : 

@@ -1,4 +1,4 @@
-extends Node
+extends Node2D
 
 @onready var ilustration: TextureRect = $Ilustration
 @onready var enonce: Label = $Enonce
@@ -6,10 +6,18 @@ extends Node
 @onready var back_ground_ilustration: TextureRect = $BackGroundIlustration
 @onready var panel: Panel = $Panel
 
-@onready var _2Bts: Node = $"2Buttons"
-@onready var _3Bts: Node = $"3Buttons"
+@onready var _2Bts: Node2D = $"2Buttons2D"
+@onready var _3Bts: Node2D = $"3Buttons2D"
 
-func hide() : 
+@export var durationHideChoice : float = 0.2
+@export var durationShowChoice : float = 0.6
+
+func resetNode():
+	position = Vector2(0,957)
+	rotation = 0
+
+
+func choixHide() : 
 	_2Bts.Hide()
 	_3Bts.Hide()
 	ilustration.visible = false
@@ -17,8 +25,9 @@ func hide() :
 	back_ground_ilustration.visible = false
 	panel.visible = false
 	titre.visible = false
+	resetNode()
 	
-func show():
+func choixShow():
 	ilustration.visible = true
 	enonce.visible = true
 	back_ground_ilustration.visible = true
@@ -60,6 +69,19 @@ func fillButton(customBtNode, possibility ):
 	customBtNode.setUp()
 	
 	
+func hideChoixUI():
+	var tween = create_tween()
+	#tween.tween_property(choixNode , "position" , Vector2(0,1048.0),  durationShowChoice)
+	tween.tween_property(self , "rotation" , -60 * PI / 180,  durationHideChoice)
+	
+	await get_tree().create_timer(0.6).timeout 
+	
+func showChoixUI():
+	await get_tree().create_timer(0.6).timeout 
+	var tween = create_tween()
+	tween.tween_property(self , "position" , Vector2(0,-80),  durationShowChoice - 0.2)
+	tween.tween_property(self , "position" , Vector2(0,0),  durationShowChoice - 0.5)
+	await tween.finished
 
 	
 	

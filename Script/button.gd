@@ -1,4 +1,5 @@
 extends Button
+@onready var ParentNode: Node2D = $"../.."
 
 var choice : ChoicePossibility
 @export var game_manager : GameManager
@@ -19,6 +20,8 @@ func _on_button_up() -> void:
 	
 	var tween = create_tween()
 	tween.tween_property(self,"modulate",Color(1.0, 1.0, 1.0, 1.0), 0.08)
+	
+	await ParentNode.hideChoixUI()
 	
 	game_manager.select_choice(choice)
 	
