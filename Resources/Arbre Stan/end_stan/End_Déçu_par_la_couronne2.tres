@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("1_p0gbe")
-history_book = "En février 1848, Louis-Philippe abdique au profit de son fils Philippe VII. Le jeune roi signe une nouvelle Charte rétablissant quelques libertés, stabilisant ainsi la situation politique pour quelques années encore. Thiers rentre au gouvernement et poursuit sa politique de développement industriel."
+history_book = "En février 1848, Louis-Philippe abdique au profit de son petit-fils Philippe VII. Le jeune roi signe une nouvelle Charte rétablissant quelques libertés, stabilisant ainsi la situation politique pour quelques années encore. Thiers rentre au gouvernement et poursuit sa politique de développement industriel."
 enonce = "La monarchie vous a déçu une fois de plus, et vous avez préféré vous retirer. Le peuple cessa sa lutte par peur de représailles, et vos espoirs d’un meilleur gouvernement s'éteignirent en même temps que le leur. "
 decors = ExtResource("1_ebjto")
 titre = "Déçu par la couronne"

@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource("2_xmb23")
 choix = Array[ExtResource("1_aqqwm")]([ExtResource("2_m3dfp"), ExtResource("3_4wo7p")])
-illustration = ExtResource("4_kevbi")
-enonce = "Le roi a publié sa nouvelle charte !La censure est limitée, la liberté de la presse encadrée et le suffrage censitaire reste en vigueur.  Le Roi a décidé de ne pas s’encombrer de la question de l’esclavage, l’Assemblée verra plus tard."
+enonce = "Le roi a publié sa nouvelle charte ! La censure est limitée, la liberté de la presse encadrée et le suffrage censitaire reste en vigueur.  Le Roi a décidé de ne pas s’encombrer de la question de l’esclavage, l’Assemblée verra plus tard."
 titre = "Le retour à l’ordre…"
+illustration = ExtResource("4_kevbi")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource("2_ntm1x")
 choix = Array[ExtResource("1_gtg3r")]([ExtResource("2_ekiwp"), ExtResource("3_74mjj")])
-illustration = ExtResource("4_5q7ec")
-enonce = "Suite au départ soudain de son père, Philippe d’Orléans tente de se présenter au peuple…"
+enonce = "Suite au départ soudain de son grand-père, Philippe d’Orléans tente de se présenter au peuple…"
 titre = "24 février 1848 : Le roi a fui !"
+illustration = ExtResource("4_5q7ec")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

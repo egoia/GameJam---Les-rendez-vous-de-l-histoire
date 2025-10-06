@@ -7,7 +7,7 @@
 
 [resource]
 script = ExtResource("1_u1vrg")
-enonce = "Le nouveau roi Philippe VII forme un nouveau gouvernement, après avoir également mis Guizot de côté."
+enonce = "Le nouveau roi Philippe VII forme un  gouvernement, après avoir également mis Guizot de côté en signe d'ouverture."
 titre = "La Monarchie de Juillet se maintient"
 musique = ExtResource("1_sqovr")
 illustration = ExtResource("1_645ws")

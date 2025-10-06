@@ -6,6 +6,5 @@
 [resource]
 script = ExtResource("1_7udjb")
 next = ExtResource("1_6h001")
-text = "Prêtez main forte à l’armée face à ces sauvages !"
-value = 1
+text = "La Garde Nationale doit protéger le peuple face à l'armée illégitime !"
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"

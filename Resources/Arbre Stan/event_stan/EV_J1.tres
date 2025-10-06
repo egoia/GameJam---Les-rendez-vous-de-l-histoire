@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("1_t41ft")
-enonce = "Pour apaiser la situation, le Roi abdique au profit de son fils. La peur qui règne au sein du peuple pousse celui-ci à accepter cette offre de paix, sans plus de révolte."
+enonce = "Pour apaiser la situation, le Roi abdique au profit de son petit-fils. La peur qui règne au sein du peuple pousse celui-ci à accepter cette offre de paix, sans plus de révolte."
 titre = "Le roi abdique"
 illustration = ExtResource("1_pggoj")
 next = ExtResource("1_cdhmj")

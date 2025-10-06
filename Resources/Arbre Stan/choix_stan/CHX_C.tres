@@ -9,7 +9,7 @@
 [resource]
 script = ExtResource("2_1uk64")
 choix = Array[ExtResource("1_kb27y")]([ExtResource("2_jfta4"), ExtResource("3_re51v")])
-illustration = ExtResource("4_238yu")
-enonce = "La Garde Nationale est sur place et prête à agir. Quelle est la priorité?"
+enonce = "Les Parisiens montent des barricades, sortent les fusils et les slogans. Paris se soulève ! La Garde Nationale est mobilisée et prête à agir. Les miliciens hésitent, que fait ?"
 titre = "23 février 1848 : La milice est là !"
+illustration = ExtResource("4_238yu")
 metadata/_custom_type_script = "uid://drvroan3bl8mt"

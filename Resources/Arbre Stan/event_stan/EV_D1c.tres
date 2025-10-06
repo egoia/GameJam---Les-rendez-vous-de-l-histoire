@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("1_j1dib")
-enonce = "Vos propositions ont bien été reçu par le roi. Hate de voir à quoi va ressembler ce nouveau gouvernement royaliste!"
+enonce = "Vos propositions ont bien été reçues par le roi. Hâte de voir à quoi va ressembler ce nouveau gouvernement royaliste!"
 titre = "Propositions faites au roi"
 illustration = ExtResource("1_421jq")
 next = ExtResource("1_fiptt")

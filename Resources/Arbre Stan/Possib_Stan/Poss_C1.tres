@@ -6,5 +6,6 @@
 [resource]
 script = ExtResource("1_swwo2")
 next = ExtResource("1_aim8v")
-text = "Protégez la foule, le joug du roi est fini !"
+text = "La Garde Nationale doit aider l'armée à mater les émeutes."
+value = 1
 metadata/_custom_type_script = "uid://cf0s2yehl3uog"
